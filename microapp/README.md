@@ -2,7 +2,7 @@
 
 Aplicación móvil y web para inventario, ventas, clientes y operación de pequeños negocios.
 
-Proyecto personal de Jesús Leonardo Martínez Rodrigues.
+Proyecto personal de Jesús Leonardo Martínez Rodríguez.
 
 ## Tecnologías
 

@@ -1,6 +1,6 @@
 # Proyectos de software
 
-Portafolio técnico de Jesús Leonardo Martínez Rodrigues.
+Portafolio técnico de Jesús Leonardo Martínez Rodríguez.
 
 - [Judicial Managment](judicial-managment/README.md): Aplicación de gestión jurídica para expedientes, clientes, movimientos y colaboración por despacho.
 - [MicroApp](microapp/README.md): Aplicación móvil y web para inventario, ventas, clientes y operación de pequeños negocios.

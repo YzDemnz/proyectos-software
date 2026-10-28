@@ -121,8 +121,8 @@
   },
   {
     "path": "bastion/README.md",
-    "size": 782,
-    "sha256": "4d453ff5ad9b7aa120c7c01e5d6db833059ccb847e46ad7f8d71c475b6de31f6"
+    "size": 783,
+    "sha256": "af49cc28b3282b4f56d6054c683d170dcd4065e22791f70faf44342a22be0d41"
   },
   {
     "path": "bastion/serverconfig.cleaned.json",
@@ -326,8 +326,8 @@
   },
   {
     "path": "blender-workbench/README.md",
-    "size": 880,
-    "sha256": "c961d3399c1c0bbfc68c93a2c76d28eee435cb7a197dea75d74394f51bdcab53"
+    "size": 881,
+    "sha256": "fecfa16aeb6277b99b25788b9b1b32a86a6549f8c70b6c3ad0d7fedf76f5c210"
   },
   {
     "path": "blender-workbench/Start-Bridge.ps1",
@@ -416,8 +416,8 @@
   },
   {
     "path": "discord-community-bot/README.md",
-    "size": 910,
-    "sha256": "1fc8134a9297c6362ffdd507a50e5c982d62c76353e1ca96d54f5d6a1fc15ea0"
+    "size": 911,
+    "sha256": "5e4eaf4972196bcf13c6033da6292cada27748f691b4f8b3c0730790c89ee70c"
   },
   {
     "path": "discord-community-bot/storage.mjs",
@@ -776,8 +776,8 @@
   },
   {
     "path": "judicial-managment/README.md",
-    "size": 801,
-    "sha256": "40c3fd30dda249cc83d189b4ccb0b07437c182fb33f65d709aff27b178a1686e"
+    "size": 802,
+    "sha256": "1c5731ddbc11ba851889a1f2453a1c07de68ce8d2a7a26bc13aaba1c684670ee"
   },
   {
     "path": "judicial-managment/scripts/after-pack.cjs",
@@ -1431,8 +1431,8 @@
   },
   {
     "path": "lumen/README.md",
-    "size": 714,
-    "sha256": "3937b7b7f7f4985f45e68caead36653472dbe61496916963a3c98600c3dc3bee"
+    "size": 715,
+    "sha256": "90af2bac1f00b4fea5d8c693f74d19ca269b7546549eae616fc73362219cf89b"
   },
   {
     "path": "lumen/scripts/start-local.ps1",
@@ -1641,8 +1641,8 @@
   },
   {
     "path": "microapp/README.md",
-    "size": 788,
-    "sha256": "36db474f36e88e1e2469f22aac6070351f560e4b05a14035717cc61634cab488"
+    "size": 789,
+    "sha256": "3ea70e8dc5bd2524f50f1660742c777d633ef5465b1248af51d5f062cba56045"
   },
   {
     "path": "microapp/src/screens/FreeDashboardScreen.tsx",
@@ -1741,7 +1741,7 @@
   },
   {
     "path": "README.md",
-    "size": 1451,
-    "sha256": "0f2e75430006313298f705d54c647628f40c480e0a3ad87e9d02109ddfbe0f45"
+    "size": 1452,
+    "sha256": "7975f99658739b03499c4fdcc971be3c4eb4795809d7f90811c29270667de5ca"
   }
 ]

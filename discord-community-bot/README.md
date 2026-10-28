@@ -2,7 +2,7 @@
 
 Bot modular de tickets privados, moderación, archivos temporales y recordatorios de progresión.
 
-Proyecto personal de Jesús Leonardo Martínez Rodrigues.
+Proyecto personal de Jesús Leonardo Martínez Rodríguez.
 
 ## Tecnologías
 

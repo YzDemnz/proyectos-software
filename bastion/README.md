@@ -2,7 +2,7 @@
 
 Prototipo cooperativo de supervivencia por oleadas para Roblox.
 
-Proyecto personal de Jesús Leonardo Martínez Rodrigues.
+Proyecto personal de Jesús Leonardo Martínez Rodríguez.
 
 ## Tecnologías
 

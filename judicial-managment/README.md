@@ -2,7 +2,7 @@
 
 Aplicación de gestión jurídica para expedientes, clientes, movimientos y colaboración por despacho.
 
-Proyecto personal de Jesús Leonardo Martínez Rodrigues.
+Proyecto personal de Jesús Leonardo Martínez Rodríguez.
 
 ## Tecnologías
 

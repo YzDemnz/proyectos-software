@@ -2,7 +2,7 @@
 
 Biblioteca con catálogo, búsqueda y administración de archivos PDF y EPUB.
 
-Proyecto personal de Jesús Leonardo Martínez Rodrigues.
+Proyecto personal de Jesús Leonardo Martínez Rodríguez.
 
 ## Tecnologías
 

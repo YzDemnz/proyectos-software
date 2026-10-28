@@ -2,7 +2,7 @@
 
 Scripts Python de construcción y comprobación para un flujo Blender y Workbench.
 
-Proyecto personal de Jesús Leonardo Martínez Rodrigues.
+Proyecto personal de Jesús Leonardo Martínez Rodríguez.
 
 ## Tecnologías
 
