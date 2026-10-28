@@ -435,6 +435,11 @@
     "sha256": "b8f9840979d56289e3f5f358e837ab3e610be3456e5fed4783d45452d6ce379f"
   },
   {
+    "path": "discord-community-bot/VERIFICACION.md",
+    "size": 335,
+    "sha256": "45ebb35d96cb16aaa65bbf0346b6e1d7c1c23147fc66ee4576455c44b0b33d4b"
+  },
+  {
     "path": "judicial-managment/.env.example",
     "size": 97,
     "sha256": "cbc4457ab16e24dff356077f834e6a97665ff86c9fe269a2644df6665071d795"
