@@ -1,0 +1,159 @@
+{
+  "guildId": "900074637307453016",
+  "botId": "900048003608092974",
+  "ownerId": "900093714330985990",
+  "staffRoleIds": [
+    "900276421479797013",
+    "900145118101012623",
+    "900107253533534524",
+    "900171461175651172",
+    "900118247643844362",
+    "900048853631689433",
+    "900208886675379200",
+    "900262833056593775"
+  ],
+  "rankRoleIds": [
+    "900168423911969260",
+    "900165752924912324",
+    "900230562846470485",
+    "900002743569989362",
+    "900108083327873089",
+    "900216557128517917",
+    "900276421479797013",
+    "900145118101012623",
+    "900107253533534524",
+    "900171461175651172",
+    "900118247643844362",
+    "900048853631689433",
+    "900208886675379200",
+    "900262833056593775"
+  ],
+  "ranks": [
+    {
+      "id": "900168423911969260",
+      "name": "Soldado (Raso)",
+      "level": 1,
+      "group": "Tropa"
+    },
+    {
+      "id": "900165752924912324",
+      "name": "Cabo",
+      "level": 2,
+      "group": "Tropa"
+    },
+    {
+      "id": "900230562846470485",
+      "name": "Sargento Segundo",
+      "level": 3,
+      "group": "Tropa"
+    },
+    {
+      "id": "900002743569989362",
+      "name": "Sargento Primero",
+      "level": 4,
+      "group": "Tropa"
+    },
+    {
+      "id": "900108083327873089",
+      "name": "Subteniente",
+      "level": 5,
+      "group": "Oficiales"
+    },
+    {
+      "id": "900216557128517917",
+      "name": "Teniente",
+      "level": 6,
+      "group": "Oficiales"
+    },
+    {
+      "id": "900276421479797013",
+      "name": "Capitán Segundo",
+      "level": 7,
+      "group": "Oficiales"
+    },
+    {
+      "id": "900145118101012623",
+      "name": "Capitán Primero",
+      "level": 8,
+      "group": "Oficiales"
+    },
+    {
+      "id": "900107253533534524",
+      "name": "Mayor",
+      "level": 9,
+      "group": "Jefes"
+    },
+    {
+      "id": "900171461175651172",
+      "name": "Teniente Coronel",
+      "level": 10,
+      "group": "Jefes"
+    },
+    {
+      "id": "900118247643844362",
+      "name": "Coronel",
+      "level": 11,
+      "group": "Jefes"
+    },
+    {
+      "id": "900048853631689433",
+      "name": "General Brigadier",
+      "level": 12,
+      "group": "Generales"
+    },
+    {
+      "id": "900208886675379200",
+      "name": "General de Brigada",
+      "level": 13,
+      "group": "Generales"
+    },
+    {
+      "id": "900262833056593775",
+      "name": "General de División",
+      "level": 14,
+      "group": "Generales"
+    }
+  ],
+  "starterRoleId": "900168423911969260",
+  "activatedAt": "2026-10-20T07:44:01.425Z",
+  "welcomeChannelId": "900190253419402078",
+  "farewellChannelId": "900174918537371753",
+  "ticketPanelChannelId": "900183832729122975",
+  "ticketCategoryId": "900172633206440530",
+  "ranksChannelId": "900220439393132218",
+  "generalChannelId": "900177648077152888",
+  "guildIconURL": "https://cdn.discordapp.com/icons/900074637307453016/2e55d62d50b813b21114143b60b73d20.png?size=256",
+  "decoratedCategories": {
+    "headquarters": "900160653510399982",
+    "life": "900158206566218789",
+    "attention": "900272185975046476",
+    "private": "900172633206440530",
+    "communications": "900253796825410482"
+  },
+  "archiveClosedTickets": true,
+  "moderationRoleIds": [
+    "900107253533534524",
+    "900171461175651172",
+    "900118247643844362",
+    "900048853631689433",
+    "900208886675379200",
+    "900262833056593775"
+  ],
+  "staffCategoryId": "900216849915062413",
+  "moderationCategoryId": "900065017080322649",
+  "rulesChannelId": "900050891130743969",
+  "announcementsChannelId": "900108263307350520",
+  "promotionsChannelId": "900106583733026231",
+  "sanctionsChannelId": "900245047799752455",
+  "toxicChatChannelId": "900150661118178636",
+  "staffChatChannelId": "900199557036983593",
+  "bansChannelId": "900112402083455156",
+  "moderationPanelChannelId": "900037989835383558",
+  "promotionPanelChannelId": "900217128216280559",
+  "coursesChannelId": "900244368228838740",
+  "ticketArchiveRetentionHours": 72,
+  "promotionReminderAfterDays": 21,
+  "promotionScanMinutes": 15,
+  "runtimeDirectory": "C:/Users/leo_j/Documents/Codex/GuardiaNacionalBot",
+  "nodeExecutable": "C:\\Users\\leo_j\\Documents\\Codex\\GuardiaNacionalBot\\runtime\\node.exe"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "BastionNightShift",
+  "servePort": 34872,
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Bastion": { "$className": "Folder", "Shared": { "$path": "src/shared" } }
+    },
+    "ServerScriptService": { "Bastion": { "$path": "src/server" } },
+    "ServerStorage": { "Bastion": { "$className": "Folder" } },
+    "StarterPlayer": {
+      "$properties": {
+        "CameraMode": "LockFirstPerson",
+        "CameraMinZoomDistance": 0.5,
+        "CameraMaxZoomDistance": 0.5,
+        "EnableMouseLockOption": false,
+        "CharacterWalkSpeed": 14,
+        "CharacterJumpPower": 38
+      },
+      "StarterPlayerScripts": { "Bastion": { "$path": "src/client" } }
+    },
+    "StarterGui": { "$path": "src/gui" },
+    "Workspace": {
+      "$properties": { "FilteringEnabled": true, "StreamingEnabled": false, "Gravity": 196.2, "FallenPartsDestroyHeight": -60 }
+    },
+    "Lighting": {
+      "$properties": { "ClockTime": 1.2, "Brightness": 2, "GlobalShadows": true }
+    },
+    "SoundService": { "$properties": { "RespectFilteringEnabled": true } }
+  }
+}

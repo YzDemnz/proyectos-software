@@ -1,0 +1,1236 @@
+MICROAPP - FASES, DISENO Y CRITERIOS DE PRODUCTO
+Ruta del proyecto: E:\MicroApp
+Ultima actualizacion: 2026-06-04
+
+Objetivo general
+Crear primero un front profesional, claro y vendible para Android. Cuando el
+diseno y el flujo principal esten aprobados, pasar al back con una arquitectura
+mas independiente, mantenible y lista para crecer.
+
+
+FASES DEL PROYECTO
+
+Fase 0 - Base del proyecto
+Estado: iniciada
+
+- Proyecto creado con Expo, React Native y TypeScript.
+- App guardada en disco externo.
+- Primera pantalla visual creada para arrancar iteraciones.
+- Configuracion Android inicial agregada.
+
+Criterio de aceptacion:
+- La app abre sin errores.
+- TypeScript pasa.
+- Expo Doctor pasa.
+- Hay una pantalla inicial presentable para revisar estilo.
+
+
+Fase 1 - Definicion de identidad visual
+Estado: pendiente de definir contigo
+
+Decisiones que necesitamos cerrar:
+- Nombre final de la app.
+- Categoria de producto.
+- Usuario objetivo.
+- Paleta principal y secundaria.
+- Estilo visual: serio, premium, juvenil, minimalista, tecnico, legal,
+  educativo, creativo, financiero, etc.
+- Tono de texto: directo, cercano, formal, aspiracional o practico.
+
+Consejos de diseno:
+- Antes de meter muchas pantallas, conviene cerrar una direccion visual clara.
+- La app debe verse bien en pantalla chica primero.
+- Evitar una paleta de un solo color. Usar un color principal, un color de
+  accion, neutros y un acento para estados importantes.
+- Usar tarjetas solo cuando agrupen informacion real; no llenar todo de cards.
+- Cada pantalla debe tener una accion primaria evidente.
+
+
+Fase 2 - Mapa de pantallas
+Estado: pendiente
+
+Pantallas posibles:
+- Inicio / dashboard.
+- Onboarding.
+- Registro / login, si aplica.
+- Pantalla principal del producto.
+- Detalle de elemento.
+- Crear / editar.
+- Perfil o ajustes.
+- Pantalla de pago o version Pro, si aplica.
+- Pantalla de ayuda o soporte.
+
+Consejos de flujo:
+- Primero debemos definir el camino principal del usuario en 3 pasos:
+  entra, entiende que hacer, obtiene valor.
+- No conviene crear muchas pantallas antes de saber cual es el flujo que vende.
+- Cada pantalla debe responder: que ve el usuario, que puede hacer, que pasa
+  despues.
+
+
+Fase 3 - Componentes base
+Estado: pendiente
+
+Componentes recomendados:
+- Boton primario, secundario e icon button.
+- Barra inferior o tabs.
+- Header compacto.
+- Tarjeta informativa.
+- Formulario base.
+- Input con estados: normal, focus, error, disabled.
+- Empty state.
+- Loading state.
+- Modal o bottom sheet.
+- Toast / aviso breve.
+
+Consejos de componentes:
+- Mantener radios de borde moderados.
+- Usar iconos consistentes.
+- Definir espaciados estables.
+- No improvisar estilos nuevos en cada pantalla.
+- Crear un pequeno sistema visual antes de crecer.
+
+
+Fase 4 - Prototipo navegable del front
+Estado: pendiente
+
+Objetivo:
+Tener pantallas conectadas con estado local de front, sin back todavia.
+
+Consejos:
+- Usar datos reales capturados por el usuario dentro del flujo local.
+- Validar estados vacios y estados con mucho contenido.
+- Validar que botones, formularios y navegacion tengan sentido antes de
+  programar back.
+- Revisar en tamano movil real, no solo en navegador ancho.
+
+
+Fase 5 - Preparacion para Play Store
+Estado: pendiente
+
+Elementos a preparar:
+- Nombre final.
+- Package name definitivo, por ejemplo com.tumarca.microapp.
+- Icono propio.
+- Splash screen.
+- Capturas de pantalla.
+- Descripcion corta.
+- Descripcion larga.
+- Politica de privacidad.
+- Version inicial.
+- Estrategia gratis, pago unico, suscripcion o compras internas.
+
+Consejos para venta:
+- El primer pantallazo debe explicar valor, no solo verse bonito.
+- La ficha de Play Store debe prometer algo concreto y cumplible.
+- Si habra pago, el usuario debe entender el beneficio antes de pagar.
+- Evitar permisos innecesarios.
+
+
+Fase 6 - Back y datos
+Estado: se inicia despues de aprobar front
+
+Opciones posibles:
+- Sin back al inicio: datos locales con almacenamiento en el dispositivo.
+- Back ligero: Supabase, Firebase o API propia.
+- Back profesional: API separada, base de datos, autenticacion, analiticas y
+  panel de administracion.
+
+Recomendacion:
+Empezar independiente: que la app pueda funcionar con datos locales capturados
+por el usuario durante el diseno. Luego conectar el back con una capa de
+servicios para no mezclar UI con llamadas directas.
+
+
+RECOMENDACIONES PARA HACERLA MAS INDEPENDIENTE Y PROFESIONAL
+
+Arquitectura
+- Separar pantallas, componentes, tema, estado local y servicios.
+- Evitar meter toda la app en App.tsx conforme crezca.
+- Crear una carpeta src/ cuando pasemos de prototipo a estructura formal.
+- Usar TypeScript estricto y tipos para modelos principales.
+- Mantener scripts de verificacion: typecheck, doctor y despues lint/test.
+
+Producto
+- Definir desde temprano que problema resuelve.
+- Crear una version minima vendible, no una app enorme desde el inicio.
+- Medir cada nueva funcion contra esta pregunta: ayuda a vender o usar mejor
+  la app?
+- Pensar en soporte, privacidad y mantenimiento desde antes de publicar.
+
+Diseno
+- Disenar primero el flujo principal.
+- Usar jerarquia clara: titulo, descripcion breve, accion principal.
+- No saturar con texto explicativo dentro de la app.
+- Crear consistencia en botones, iconos, colores, espaciados y estados.
+- Revisar contraste y legibilidad.
+- Validar siempre en pantalla movil.
+
+Publicacion
+- Usar un package name final antes de crear builds publicos.
+- Preparar politica de privacidad aunque la app parezca simple.
+- Mantener changelog.
+- Subir versiones con versionCode incremental.
+- Evitar dependencias innecesarias para reducir riesgo.
+
+Negocio
+- Decidir pronto si sera gratis, pago unico, suscripcion o freemium.
+- Si sera de pago, mostrar valor antes del cobro.
+- Pensar en nicho: una app pequena pero clara vende mejor que una app generica.
+- Crear capturas de Play Store desde pantallas reales y pulidas.
+
+
+PENDIENTE DE TU PARTE
+
+Cuando me pases tus fases, las voy a colocar aqui con:
+- objetivo de la fase,
+- pantallas necesarias,
+- criterios de aceptacion,
+- consejos de diseno,
+- riesgos,
+- recomendaciones tecnicas,
+- pendientes para revisar juntos.
+
+
+============================================================
+CONCEPTO RECIBIDO - APP PARA NEGOCIOS PEQUENOS
+Fecha: 2026-06-04
+
+Idea central
+MicroApp debe convertirse en una herramienta simple para que negocios pequenos
+controlen ventas, inventario, clientes, fiado, citas, catalogo, compras,
+reportes, empleados y respaldo sin sentirse como un sistema complicado.
+
+Posicionamiento recomendado
+"Control simple para tu negocio desde el celular."
+
+Usuario objetivo
+- Tienditas.
+- Barberias.
+- Esteticas y unas.
+- Talleres.
+- Dentistas o consultorios pequenos.
+- Vendedores por WhatsApp.
+- Negocios familiares con poco control administrativo.
+
+Promesa comercial
+Que el dueno sepa en minutos cuanto vendio, que se esta acabando, quien debe,
+que citas tiene y cuanto dinero realmente esta ganando.
+
+
+MODULOS PROPUESTOS
+
+1. Registro rapido de ventas
+Necesidad:
+Muchos negocios no saben cuanto venden al dia o lo anotan mal.
+
+Funcionamiento:
+El usuario toca "Nueva venta", elige producto o escribe venta libre, pone
+cantidad, metodo de pago y guarda. Al final del dia ve cuanto entro en
+efectivo, transferencia o tarjeta.
+
+Consejo de diseno:
+Esta debe ser la accion mas visible de la app. La pantalla inicial debe tener
+un boton grande "Nueva venta" y un resumen de hoy. El flujo ideal no debe tomar
+mas de 10 segundos.
+
+
+2. Inventario basico
+Necesidad:
+No saben que se esta acabando hasta que el cliente lo pide y ya no hay.
+
+Funcionamiento:
+Cada producto tiene nombre, precio, costo, existencia y alerta minima. Cuando
+se vende algo, se descuenta automaticamente. Si baja del minimo, la app avisa:
+"Te quedan 3 focos LED".
+
+Consejo de diseno:
+Usar etiquetas visuales simples: "Disponible", "Bajo", "Agotado". Evitar una
+tabla pesada. En movil conviene usar lista de productos con buscador y filtros.
+
+
+3. Clientes y contactos
+Necesidad:
+El negocio pierde historial: quien compra, que pidio, cuando vuelve.
+
+Funcionamiento:
+Se guarda cada cliente con nombre, telefono, compras anteriores, notas y
+deudas. Desde ahi se puede mandar WhatsApp directo.
+
+Consejo de diseno:
+La ficha del cliente debe parecer una libreta ordenada: datos arriba, deuda o
+saldo visible, historial debajo y boton de WhatsApp siempre claro.
+
+
+4. Fiado, abonos y cobranza
+Necesidad:
+El clasico "luego te pago" se vuelve un caos.
+
+Funcionamiento:
+La app permite marcar una venta como pendiente. Se registra cuanto debe, cuanto
+abono y fecha prometida. Luego manda recordatorios manuales o automaticos por
+WhatsApp.
+
+Consejo de diseno:
+No usar lenguaje bancario complejo. Usar palabras del negocio: "Debe",
+"Abono", "Fecha prometida", "Mandar recordatorio". La pantalla debe mostrar
+primero a quien cobrar y cuanto.
+
+
+5. Agenda y citas
+Necesidad:
+Barberias, unas, talleres, dentistas o servicios pierden clientes por mala
+organizacion.
+
+Funcionamiento:
+Calendario simple con citas, cliente, servicio, hora, duracion y anticipo. La
+app puede mandar mensaje: "Hola, te recordamos tu cita manana a las 5:00 pm".
+
+Consejo de diseno:
+Empezar con vista "Hoy" y "Semana", no con un calendario complejo. Para muchos
+usuarios es mas util ver la lista de citas del dia que un calendario mensual.
+
+
+6. Catalogo digital
+Necesidad:
+Muchos venden por WhatsApp pero mandan fotos sueltas, precios viejos o
+productos agotados.
+
+Funcionamiento:
+La app genera un catalogo compartible con link. El cliente ve productos,
+precios y disponibilidad. Al pedir algo, el negocio recibe el pedido por
+WhatsApp o dentro de la app.
+
+Consejo de diseno:
+Este modulo puede ser muy comercial para vender la app. Debe verse bonito,
+limpio y compartible. La vista de catalogo debe servir tambien para capturas de
+Play Store.
+
+
+7. Compras y proveedores
+Necesidad:
+El dueno no sabe cuanto esta gastando ni a quien le compro.
+
+Funcionamiento:
+Se registran compras de mercancia: proveedor, fecha, productos, costo y
+cantidad. Esto ayuda a calcular ganancia real, no solo "entro dinero".
+
+Consejo de diseno:
+No hacerlo demasiado contable al inicio. Usar flujo simple: "Registrar compra",
+"Proveedor", "Productos", "Total". Despues se puede volver mas detallado.
+
+
+8. Reportes sencillos
+Necesidad:
+Muchos negocios creen que ganaron porque hubo ventas, pero no separan costo,
+deuda y gasto.
+
+Funcionamiento:
+La app muestra reportes muy simples: ventas del dia, productos mas vendidos,
+clientes que mas compran, dinero pendiente por cobrar, ganancia estimada y
+gastos registrados.
+
+Consejo de diseno:
+Los reportes deben responder preguntas, no mostrar graficas por decorar:
+- Cuanto vendi hoy?
+- Cuanto tengo en efectivo?
+- Quien me debe?
+- Que producto se vende mas?
+- Cuanto podria haber ganado?
+
+
+9. Empleados y permisos
+Necesidad:
+Si hay mas de una persona atendiendo, no todos deben ver todo.
+
+Funcionamiento:
+El dueno puede crear usuarios: cajero, encargado, administrador. Por ejemplo,
+el cajero registra ventas, pero no ve ganancias totales ni puede borrar
+historial.
+
+Consejo de diseno:
+Esto conviene para una version mas avanzada o Pro. Al inicio conviene
+representar roles en front, pero el back debe hacerlo con seguridad real.
+
+
+10. Respaldo, seguridad y modo facil
+Necesidad:
+Si se pierde el celular o se borra WhatsApp, se pierde medio negocio.
+
+Funcionamiento:
+La app guarda datos en la nube, permite iniciar sesion desde otro celular y
+exportar reportes en Excel/PDF. Tambien deberia tener modo offline para
+registrar ventas aunque falle internet.
+
+Consejo de diseno:
+El usuario no debe pensar en "sincronizacion". Debe ver mensajes simples:
+"Guardado en este celular", "Respaldado en la nube", "Pendiente de subir".
+
+
+ROADMAP RECOMENDADO
+
+MVP 1 - App vendible minima
+Objetivo:
+Que un negocio pueda registrar ventas, ver ventas del dia y controlar productos
+basicos.
+
+Incluye:
+- Inicio con resumen de hoy.
+- Nueva venta.
+- Venta libre.
+- Venta con producto.
+- Metodos de pago.
+- Inventario basico.
+- Alertas de stock bajo.
+- Reporte diario simple.
+
+Por que primero:
+Esto da valor inmediato y permite vender la app como herramienta de control
+diario. Es tambien lo mas facil de mostrar en capturas y videos.
+
+
+MVP 2 - Clientes y fiado
+Objetivo:
+Resolver uno de los dolores mas reales de negocios pequenos: cobrar y recordar.
+
+Incluye:
+- Clientes.
+- Historial de compras.
+- Venta pendiente.
+- Abonos.
+- Saldo por cliente.
+- Boton para mandar WhatsApp.
+- Lista "por cobrar".
+
+Por que despues:
+Da una razon fuerte para que el usuario vuelva a abrir la app cada dia.
+
+
+MVP 3 - Agenda y servicios
+Objetivo:
+Abrir la app a barberias, esteticas, talleres, consultorios y servicios.
+
+Incluye:
+- Agenda de hoy.
+- Crear cita.
+- Cliente.
+- Servicio.
+- Anticipo.
+- Mensaje recordatorio por WhatsApp.
+
+Por que despues:
+Puede convertir la app en herramienta para varios nichos, no solo tiendas.
+
+
+MVP 4 - Catalogo digital
+Objetivo:
+Hacer que la app ayude a vender por WhatsApp.
+
+Incluye:
+- Catalogo con productos activos.
+- Precios y disponibilidad.
+- Link compartible.
+- Pedido por WhatsApp.
+
+Riesgo:
+El link compartible requiere back o hosting. En front se puede prototipar, pero
+para que funcione real necesitara nube.
+
+
+MVP 5 - Compras, proveedores y ganancia real
+Objetivo:
+Pasar de "registre ventas" a "entiendo mi ganancia".
+
+Incluye:
+- Registrar compras.
+- Proveedores.
+- Costo de productos.
+- Ganancia estimada.
+- Gastos.
+
+
+MVP 6 - Profesional / Pro
+Objetivo:
+Convertir la app en producto comercial mas fuerte.
+
+Incluye:
+- Empleados y permisos.
+- Respaldo en nube.
+- Exportar Excel/PDF.
+- Modo offline con sincronizacion.
+- Multi-dispositivo.
+- Compras dentro de la app o suscripcion.
+
+
+RECOMENDACION DE FRONT
+
+Pantalla inicial recomendada:
+- Header con nombre del negocio.
+- Resumen de hoy:
+  - Ventas.
+  - Efectivo.
+  - Transferencia.
+  - Tarjeta.
+  - Pendiente por cobrar.
+- Accion principal grande: "Nueva venta".
+- Acciones secundarias: "Producto", "Cliente", "Fiado".
+- Alertas visibles: "Stock bajo", "Citas de hoy", "Cobros pendientes".
+
+Navegacion recomendada:
+- Inicio.
+- Ventas.
+- Inventario.
+- Clientes.
+- Mas.
+
+En "Mas" pueden vivir:
+- Agenda.
+- Catalogo.
+- Compras.
+- Reportes.
+- Empleados.
+- Ajustes.
+
+Motivo:
+Si metemos 10 pestanas, se va a sentir pesada. Mejor poner las funciones mas
+usadas en la barra inferior y guardar lo avanzado en "Mas".
+
+
+RECOMENDACION COMERCIAL
+
+Modelo posible:
+- Gratis:
+  - Ventas basicas.
+  - Hasta cierto numero de productos/clientes.
+  - Reporte del dia.
+
+- Pro:
+  - Respaldo en nube.
+  - Catalogo digital.
+  - Fiado avanzado.
+  - Exportar Excel/PDF.
+  - Empleados.
+  - Multi-dispositivo.
+
+Por que:
+El usuario debe poder probar valor sin pagar. El pago debe estar ligado a
+seguridad, crecimiento y funciones que ahorran tiempo.
+
+
+RIESGOS A EVITAR
+
+- Hacer la app demasiado contable y asustar al usuario.
+- Meter muchas funciones antes de que "Nueva venta" sea perfecta.
+- Crear formularios largos.
+- Poner reportes complejos desde el inicio.
+- Depender de internet para registrar ventas.
+- Prometer recordatorios automaticos antes de resolver permisos, politicas y
+back.
+- Mezclar datos reales con prototipo sin una capa clara de servicios.
+
+
+CRITERIO DE DISENO GENERAL
+
+La app debe sentirse como una caja registradora inteligente, no como un ERP.
+Debe ser rapida, clara, confiable y muy facil de explicar en una frase:
+"Registra ventas, controla inventario y cobra fiados desde tu celular."
+
+
+============================================================
+AVANCE FRONT - INTRO Y LOGIN
+Fecha: 2026-06-04
+
+Implementado:
+- Intro inicial con fondo negro.
+- Texto "MicroApp" blanco.
+- Brillo neon discreto detras del logo.
+- Transicion de profundidad, como si el logo viniera desde atras hacia el
+  frente.
+- Salida del logo hacia arriba antes de entrar a la siguiente pantalla.
+- Pantalla inicial de inicio de sesion.
+
+Criterio visual:
+- La intro debe sentirse comercial y memorable, pero no demasiado larga.
+- El login debe ser tranquilo, claro y no invasivo.
+- La app debe comunicar desde el inicio que es para negocios, no solo una app
+  generica.
+
+Pantalla de login actual:
+- Marca MicroApp.
+- Texto principal: "Entra a tu negocio".
+- Campo de correo o telefono.
+- Campo de contrasena.
+- Boton primario: "Iniciar sesion".
+- Boton secundario: "Crear cuenta gratis".
+
+Siguientes mejoras posibles:
+- Agregar selector de tipo de negocio durante el primer registro.
+- Crear pantalla de "Crear cuenta".
+- Crear flujo gratis funcional que entre al dashboard con los datos reales que el
+  usuario cargue en onboarding.
+- Ajustar duracion exacta de la intro segun se sienta en celular real.
+
+Ajuste aplicado:
+- Se retiro la placa/fondo verde de la intro.
+- Se conserva una linea neon detras del texto.
+- La entrada del logo ahora es mas lenta.
+- Se agrego vibracion tipo shake durante el avance.
+- El logo se posa y espera 1 segundo antes de subir.
+- La salida hacia arriba conserva la intencion original.
+
+
+============================================================
+MODELO GRATUITO - ANZUELO HONESTO
+Fecha: 2026-06-04
+
+Principio:
+La version gratuita debe ser una muestra funcional del sistema, no una vista
+decorativa. Debe resolver problemas reales, permitir que el negocio cargue datos y
+dar valor diario. El limite debe sentirse natural cuando el negocio crece.
+
+Funciones gratis:
+
+1. Registro de negocio
+Necesidad:
+Crear perfil del local, logo, giro y datos basicos.
+Limite recomendado:
+1 negocio solamente.
+Por que engancha:
+Sienten que la app ya es "su sistema".
+Consejo de front:
+Debe aparecer pronto. Pedir pocos datos: nombre, giro y telefono. El logo puede
+ser opcional para no frenar el inicio.
+
+2. Inventario basico
+Necesidad:
+Guardar productos con nombre, precio y cantidad.
+Limite recomendado:
+Hasta 30 o 50 productos.
+Por que engancha:
+Empiezan a cargar mercancia y ya no quieren perder ese trabajo.
+Consejo de front:
+Mostrar progreso del limite: "18/50 productos". No esconder el limite, hacerlo
+claro y no agresivo.
+
+3. Registro manual de ventas
+Necesidad:
+Anotar ventas del dia.
+Limite recomendado:
+Hasta 20 ventas diarias o ventas ilimitadas sin reportes avanzados.
+Por que engancha:
+Ven cuanto vendieron sin hacer cuentas en libreta.
+Consejo de front:
+"Nueva venta" debe ser la accion principal del inicio.
+
+4. Clientes basicos
+Necesidad:
+Guardar clientes frecuentes.
+Limite recomendado:
+Hasta 20 clientes.
+Por que engancha:
+Empiezan a construir base de datos.
+Consejo de front:
+Mostrar el conteo y una lista sencilla. No meter CRM complejo.
+
+5. Deudas / fiado simple
+Necesidad:
+Anotar quien debe y cuanto.
+Limite recomendado:
+Hasta 10 deudas activas.
+Por que engancha:
+Ataca un dolor muy comun: "quien me debe?".
+Consejo de front:
+El resumen de fiado debe estar visible en inicio: personas y total pendiente.
+
+6. Resumen del dia
+Necesidad:
+Ver total vendido del dia.
+Limite recomendado:
+Solo vista diaria, sin historial largo.
+Por que engancha:
+Les da una mini recompensa cada dia.
+Consejo de front:
+Debe verse al abrir la app, con efectivo, transferencia, tarjeta y total.
+
+7. Alerta manual de bajo inventario
+Necesidad:
+Ver productos con pocas unidades.
+Limite recomendado:
+Sin alertas automaticas.
+Por que engancha:
+Les ensena el valor del control de stock.
+Consejo de front:
+Mostrar una seccion "Bajo inventario" con productos criticos.
+
+8. Exportacion simple
+Necesidad:
+Descargar inventario basico.
+Limite recomendado:
+Solo CSV o PDF limitado.
+Por que engancha:
+Da confianza: sus datos no estan atrapados.
+Consejo de front:
+Poner accion secundaria "Exportar CSV" en inventario.
+
+9. Soporte basico
+Necesidad:
+Ayuda por preguntas frecuentes.
+Limite recomendado:
+Sin atencion prioritaria.
+Por que engancha:
+Reduce friccion al inicio.
+Consejo de front:
+Crear un acceso simple a preguntas frecuentes en "Mas".
+
+10. Modo celular unico
+Necesidad:
+Usar la cuenta desde un solo dispositivo.
+Limite recomendado:
+Sin empleados ni multiusuario.
+Por que engancha:
+Perfecto para probar, insuficiente para crecer.
+Consejo de front:
+No asustar con restricciones desde el inicio. Mostrarlo como "Plan gratis:
+1 celular".
+
+Diseno recomendado para la version gratis:
+- La app debe sentirse completa, no bloqueada.
+- Los limites deben ser visibles como progreso, no como castigo.
+- La pantalla principal debe tener accesos grandes y directos.
+- Usar "Pro" con moderacion: solo donde el crecimiento lo justifique.
+- Las funciones gratis deben mostrar valor diario antes de pedir pago.
+
+Primer flujo de front recomendado:
+1. Login o Crear cuenta gratis.
+2. Registro rapido del negocio.
+3. Panel gratis con resumen del dia.
+4. Accesos: Nueva venta, Producto, Cliente, Fiado.
+5. Secciones: Limites gratis, Bajo inventario, Preguntas frecuentes.
+
+
+============================================================
+ESPECIFICACION RECIBIDA - ORDEN REAL DE PROGRAMACION
+Fecha: 2026-06-04
+
+Orden recomendado:
+1. Registro del negocio:
+   Crear cuenta, nombre del negocio, giro, logo, ciudad, tipo de negocio,
+   moneda y horario.
+   Motivo: personaliza todo el sistema.
+
+2. Inventario:
+   Productos, categorias, precio venta, costo, existencias, alerta minima y foto
+   opcional.
+   Motivo: es el gancho principal de la version gratis.
+
+3. Ventas:
+   Pantalla para registrar venta, seleccionar productos, cantidades,
+   descuentos y metodo de pago.
+   Motivo: es el corazon diario de la app.
+
+4. Clientes:
+   Nombre, telefono, notas, historial de compras y deudas.
+   Motivo: da sensacion profesional y crea dependencia util.
+
+5. Fiado/deudas:
+   Venta pendiente, abonos, fecha de pago y estado de deuda.
+   Motivo: resuelve un dolor comun: quien me debe y cuanto.
+
+6. Resumen del dia:
+   Total vendido, efectivo, transferencia, tarjeta, deuda generada y productos
+   vendidos.
+   Motivo: da recompensa inmediata.
+
+7. Movimientos de inventario:
+   Entradas, salidas, ajustes, devoluciones y merma.
+   Motivo: hace confiable el sistema.
+
+8. Reportes simples:
+   Dia, semana, mes, producto mas vendido y cliente frecuente.
+   Motivo: empieza a vender la suscripcion.
+
+9. Catalogo:
+   Link publico con productos activos.
+   Motivo: funcion premium fuerte para vender por WhatsApp.
+
+10. Automatizaciones:
+   Recordatorios, alertas, mensajes, respaldos, empleados y permisos.
+   Motivo: es lo que hace que el usuario diga "lo necesito".
+
+
+FLUJO PROFESIONAL DE VENTA
+
+Ejemplo:
+Cliente compra 2 shampoos y 1 cepillo.
+
+La app debe:
+1. Abrir "Nueva venta" como pantalla tipo caja.
+2. Buscar o escanear producto.
+3. Mostrar producto, precio y stock disponible.
+4. Agregar cantidad y calcular subtotal.
+5. Crear carrito con varios productos.
+6. Elegir metodo de pago: efectivo, transferencia, tarjeta, mixto o fiado.
+7. Asociar cliente opcional.
+8. Confirmar venta.
+9. Crear registro de venta con folio.
+10. Descontar inventario.
+11. Crear movimiento de inventario.
+12. Generar ticket digital.
+13. Actualizar resumen del dia y reportes.
+
+Importante:
+La venta no debe guardarse como texto libre. Conceptualmente debe separarse en:
+- Venta: fecha, negocio, usuario, cliente, total, metodo de pago y estado.
+- Detalle de venta: producto, cantidad, precio unitario y subtotal.
+- Movimiento de inventario: producto, cantidad que salio y motivo venta.
+- Pago: cantidad pagada, metodo y fecha.
+- Deuda, si aplica: cliente, monto pendiente y fecha prometida.
+- Ticket: folio, resumen y opcion de compartir.
+
+Folio:
+Cada venta debe tener folio, por ejemplo V-000123. Esto hace que la app se
+sienta como sistema real.
+
+Ejemplo de ticket:
+Venta V-000123
+Cliente: Maria Lopez
+2 Shampoo Capilar - $80 c/u
+1 Cepillo - $45
+Total: $205
+Pagado: Transferencia
+Inventario actualizado
+
+Si fue fiado:
+Total: $205
+Pagado hoy: $100
+Pendiente: $105
+Proximo pago: 15 de junio
+
+
+LIMITES GRATIS AJUSTADOS
+
+- 1 negocio, sin limite.
+- Productos: 50.
+- Ventas: 30 ventas al mes o ventas ilimitadas con reportes limitados.
+- Clientes: 25.
+- Deudas: 10 activas.
+- Resumen diario: disponible.
+- Inventario bajo: manual.
+- Exportacion: 1 vez al mes.
+- Catalogo: vista previa limitada.
+- Soporte: centro de ayuda con guias cortas.
+
+
+PREMIUM QUE VENDE
+
+Funciones premium fuertes:
+- Productos ilimitados.
+- Ventas ilimitadas.
+- Reportes mensuales.
+- Ganancia real.
+- Alertas automaticas de inventario.
+- Recordatorios por WhatsApp.
+- Deudas ilimitadas.
+- Catalogo digital con link publico.
+- Usuarios empleados y permisos.
+- Multi-dispositivo.
+- Respaldo en la nube.
+- Proveedores y compras.
+- Escaner de codigo de barras.
+- Tickets personalizados.
+- Exportacion avanzada.
+
+Funcion premium clave:
+Corte del dia completo.
+
+En gratis:
+Mostrar total vendido hoy.
+
+En premium:
+Mostrar total vendido, efectivo esperado, transferencias, tarjeta, fiado
+generado, abonos recibidos, top 5 productos, ganancia estimada y alertas.
+
+Regla de producto:
+La version gratuita debe provocar tres momentos:
+1. Que facil fue meter mis productos.
+2. Ya veo cuanto vendi hoy.
+3. Necesito desbloquear lo demas.
+
+
+============================================================
+REGLA CENTRAL - SISTEMA POR MOVIMIENTOS
+Fecha: 2026-06-04
+
+La app no puede parecer una libreta bonita. Debe sentirse como un sistema para
+micro-negocios. La idea central:
+
+Todo lo que pasa en el negocio se registra como un movimiento.
+
+- Una venta mueve inventario.
+- Un abono mueve deuda.
+- Una compra mueve stock.
+- Una cita mueve agenda.
+- Un cliente mueve historial.
+
+Columna vertebral del producto:
+Inventario -> Venta -> Pago -> Cliente -> Deuda si aplica -> Movimiento de
+stock -> Ticket -> Reporte.
+
+Reglas de UX:
+- Nunca mandar al usuario a un panel vacio.
+- Guiar con acciones: agregar producto, registrar venta, agregar cliente,
+  anotar deuda.
+- La pantalla de venta debe ser la mas pulida.
+- Registrar una venta comun debe tomar menos de 10 segundos.
+- Los limites gratis se muestran como progreso, no como castigo.
+- Los bloqueos Pro deben prometer resultado concreto:
+  - "Descubre cuanto ganaste realmente este mes."
+  - "Activa reportes y deja de hacer cuentas a mano."
+  - "Tu negocio ya supero el plan gratis."
+
+Pantalla de salud del negocio:
+Gratis:
+- Hoy vendiste.
+- Productos bajos.
+- Clientes con deuda.
+- Ventas registradas.
+
+Premium:
+- Ganancia estimada.
+- Producto mas vendido.
+- Deuda total.
+- Comparativo mensual.
+- Productos por resurtir.
+
+Estados importantes:
+
+Venta:
+- Pagada.
+- Pendiente.
+- Parcial.
+- Cancelada.
+- Devuelta.
+
+Producto:
+- Activo.
+- Bajo stock.
+- Agotado.
+- Oculto.
+- Archivado.
+
+Regla de datos:
+No borrar productos con historial. Archivarlos.
+
+Modo de negocio:
+El onboarding debe adaptar ejemplos y accesos por giro:
+- Tienda / abarrotes: inventario y ventas rapidas.
+- Barberia / estetica: agenda y clientes.
+- Taller: clientes, ordenes, anticipos y deudas.
+- Ropa: tallas, colores y variantes.
+- Comida: menu, pedidos y venta rapida.
+- Papeleria: stock y ventas pequenas.
+- Servicios profesionales: clientes, citas y pagos.
+- Otro: configuracion general.
+
+
+============================================================
+PULIDO FRONT - RECORRIDO GRATIS GUIADO
+Fecha: 2026-06-04
+
+Principio:
+No agregar funciones por agregar. Mejorar presentacion, orden y guia.
+
+La version gratis debe sentirse asi:
+- Esta app si entiende mi negocio.
+- Se ve limpia.
+- No me cuesta aprenderla.
+- Puedo empezar hoy.
+- Si la gratis ya me sirve, la de paga seguro me ahorra mas.
+
+Primer recorrido recomendado:
+1. Bienvenida:
+   "Controla ventas, inventario y fiados desde tu celular."
+   Beneficios: ventas en segundos, no quedarte sin productos, recordar quien
+   debe.
+2. Tipo de negocio:
+   Tienda, barberia, taller, ropa, comida, papeleria, servicios u otro.
+3. Nombre y logo:
+   Que el usuario sienta que ya es su sistema.
+4. Agregar primeros productos:
+   Inventario como gancho principal.
+5. Revisar primera venta guiada:
+   Tutorial dentro de la accion.
+6. Ver resumen del dia:
+   Recompensa inmediata.
+
+Reglas de onboarding:
+- No usar tutorial largo.
+- No mandar a un panel vacio.
+- Los estados vacios deben explicar que pasa y llevar a una accion.
+- La venta debe parecer mini caja registradora.
+- El exito de venta debe mostrar folio, inventario descontado y ticket creado.
+
+Dashboard gratis:
+- Saludo con nombre del negocio.
+- Ventas de hoy.
+- Productos registrados.
+- Productos bajos.
+- Clientes con deuda.
+- Boton principal: Nueva venta.
+- Boton secundario: Agregar producto.
+- Tarjeta premium elegante: no "funcion premium", sino beneficio concreto.
+
+Inventario gratis:
+- Buscador arriba.
+- Filtros por categoria.
+- Tarjetas de producto.
+- Etiqueta de bajo stock.
+- Boton agregar producto visible.
+- Contador: productos usados de 50.
+- Producto obligatorio: nombre, precio y cantidad.
+- Opcional: costo, categoria, foto, codigo, alerta minima y proveedor.
+
+Estados vacios:
+- Inventario: "Todavia no tienes productos. Agrega tu primer producto para
+  empezar a controlar ventas e inventario."
+- Clientes: "Guarda tus clientes frecuentes y revisa su historial."
+- Deudas: "Aqui apareceran los clientes que te deben dinero."
+- Ventas: "Tu dia aun no tiene ventas registradas."
+
+Premium:
+No usar popups molestos. Mostrar tarjetas bloqueadas con mensajes concretos:
+- "Descubre cuanto ganaste realmente esta semana."
+- "Activa reportes y deja de hacer cuentas a mano."
+- "Tu negocio ya supero el plan gratis."
+
+Checklist de activacion:
+- Agregar nombre del negocio.
+- Agregar 5 productos.
+- Registrar primera venta.
+- Agregar primer cliente.
+- Configurar alerta de inventario.
+
+
+============================================================
+DIRECCION VISUAL APROBADA - ESTILO APP COMERCIAL
+Fecha: 2026-06-04
+
+Referencia visual:
+- Fondo blanco limpio.
+- Azul fuerte como color principal.
+- Texto principal en azul marino oscuro.
+- Tarjetas blancas con borde suave y sombra ligera.
+- Iconos dentro de circulos suaves por categoria.
+- Botones principales azules, botones secundarios blancos con borde.
+- Navegacion inferior con 5 secciones: Inicio, Vender, Inventario, Clientes y
+  Mas.
+
+Tipografia:
+- Fuente principal: Inter.
+- Titulos de pantalla: 24 px aproximado, Inter Bold.
+- Subtitulos y tarjetas: 16 a 18 px, Inter SemiBold.
+- Texto normal: 14 a 16 px, Inter Regular o Medium.
+- Texto secundario: 12 a 14 px, Inter Regular.
+- Numeros importantes: 28 a 36 px, Inter Bold.
+- Botones: 15 a 16 px, Inter SemiBold.
+
+Descripcion de estilo:
+Diseno minimalista profesional con tarjetas blancas, fondo gris claro, acentos
+azules, iconografia lineal y jerarquia visual marcada. Inspirado en apps
+fintech, dashboards SaaS y puntos de venta moviles.
+
+Pantallas base:
+1. Bienvenida:
+   Logo grande, frase de beneficio, tres tarjetas de valor y botones
+   "Empezar gratis" y "Ya tengo cuenta".
+
+2. Inicio:
+   Saludo con nombre del negocio, cuatro metricas principales, boton "Nueva
+   venta", boton "Agregar producto" y tarjeta Pro con promesa concreta.
+
+3. Inventario:
+   Titulo, buscador, filtros, progreso de productos gratis, cards de producto,
+   etiqueta de bajo stock y boton flotante para agregar.
+
+4. Nueva venta:
+   Buscador, productos tocables, carrito visible, metodo de pago, banner verde
+   de venta registrada y boton "Cobrar".
+
+Regla de UX:
+En caja, toda la fila del producto debe ser tocable, no solo el icono de suma.
+La venta comun debe poder registrarse con pocos toques.
+
+
+============================================================
+MERCADO PAGO POINT - FLUJO PREMIUM FUTURO
+Fecha: 2026-06-04
+
+Decision:
+La app no cobra primero en la terminal. Primero arma la venta, calcula el total
+y crea una venta pendiente. Despues el backend manda la order a Mercado Pago
+Point. La terminal cobra y el webhook confirma el resultado.
+
+Base verificada en documentacion oficial:
+- Mercado Pago Point se puede integrar con un POS.
+- El procesamiento integrado usa orders asociadas a una transaccion de pago.
+- Al crear una order, se carga automaticamente en la terminal indicada.
+- El sistema integrado recibe notificaciones del estado del pago.
+- La API de Orders usa POST /v1/orders y requiere referencia externa,
+  terminal_id e idempotencia.
+
+Fuentes oficiales para backend:
+- https://www.mercadopago.com.mx/developers/es/docs/mp-point/configure-terminal
+- https://www.mercadopago.com.mx/developers/es/docs/mp-point/payment-processing
+- https://www.mercadopago.com.mx/developers/en/docs/mp-point/notifications
+- https://www.mercadopago.com.mx/developers/es/docs/mp-point/integration-test
+
+Flujo objetivo Pro:
+1. Nueva venta.
+2. Usuario arma carrito.
+3. Toca cobrar con Mercado Pago Point.
+4. MicroApp crea venta en "Pendiente de pago".
+5. MicroApp reserva stock temporalmente.
+6. Backend crea order en Mercado Pago con el total y folio.
+7. Terminal Point cobra.
+8. Webhook confirma aprobado, cancelado o rechazado.
+9. Si aprobado: venta pasa a "Pagada", reserva se convierte en salida por venta
+   y se genera ticket.
+10. Si rechazado/cancelado/expirado: la reserva se libera y no baja stock.
+
+Niveles:
+- Gratis: venta manual dentro de la app. Al confirmar, descuenta inventario y
+  crea movimiento.
+- Basico: pago registrado con efectivo, transferencia, tarjeta manual, fiado o
+  pago mixto.
+- Pro: terminal conectada. La app espera confirmacion de Mercado Pago antes de
+  descontar definitivo.
+
+Regla de oro:
+Nunca modificar stock sin movimiento de inventario. Toda venta, reserva,
+liberacion, devolucion, merma o ajuste debe quedar registrada.
+
+Estados de venta:
+- Borrador.
+- Pendiente de pago.
+- Pagada.
+- Fiada.
+- Parcial.
+- Cancelada.
+- Reembolsada.
+- Devuelta.
+
+Movimientos de inventario:
+- Entrada.
+- Venta.
+- Reserva.
+- Liberacion.
+- Devolucion.
+- Ajuste.
+- Merma.
+
+
+============================================================
+BACKEND SQLITE - FASE INICIAL
+Fecha: 2026-06-04
+
+Decision tecnica:
+El primer backend corre en Node + Express y persiste en SQLite usando sql.js.
+La base queda en:
+E:\MicroApp\backend\data\microapp.sqlite
+
+Comandos:
+- Frontend web: npm.cmd run web -- --port 8081 --localhost
+- Backend API: npm.cmd run backend
+- Salud backend: http://localhost:4001/health
+
+Endpoints base implementados:
+- GET /api/bootstrap
+- GET/PUT /api/business-profile
+- GET/POST /api/products
+- POST /api/customers
+- POST /api/debts
+- POST /api/sales
+- GET /api/export/inventory.csv
+- GET/PUT /api/ticket-settings
+- GET/PUT /api/automation-settings
+- GET/PUT /api/backup-settings
+- POST /api/backup/run
+- GET /api/point/tutorial
+- GET/PUT /api/point/config
+- POST /api/point/validate-config
+- POST /api/point/orders/preview
+- POST /webhooks/mercado-pago
+- GET /api/webhook-events
+
+Pantallas conectadas desde "Mas":
+- Personalizar negocio: nombre, giro, ciudad, telefono, moneda, logo y horario.
+- Exportar inventario: descarga CSV desde SQLite.
+- Mercado Pago Point: tutorial guiado, modo prueba/produccion, Terminal ID,
+  External Store ID, webhook publico y access token guardado en backend.
+- Alertas automaticas: guarda preferencias de stock, cobranza y corte del dia.
+- Tickets personalizados: nombre, logo, footer y marca MicroApp.
+- Respaldo: verifica SQLite y registra ultimo respaldo.
+
+Notas de seguridad para Mercado Pago:
+- El access token no debe guardarse en el celular.
+- La app movil debe mandar la configuracion al backend.
+- El backend debe crear la order usando Authorization Bearer y
+  X-Idempotency-Key.
+- El webhook debe recibir eventos como order.processed, order.canceled,
+  order.failed y order.expired.
+- Cuando exista order_id vinculado a venta, el webhook sera quien cambie la
+  venta a pagada y convierta la reserva de stock en salida definitiva.
+
+
+============================================================
+DECISION COMERCIAL - PLANES SIMPLIFICADOS
+Fecha: 2026-06-05
+
+Decision actual:
+La version gratis que se entregara al usuario tendra el valor del plan Pro de
+$99 MX. No debe sentirse como demo limitada; debe servir para operar diario y
+ganar confianza.
+
+Gratis con valor Pro $99:
+- Productos ilimitados.
+- Ventas ilimitadas.
+- Historial completo operativo.
+- Clientes y deudas sin tope visible.
+- Alertas de stock.
+- Tickets sin marca obligatoria.
+- Exportaciones basicas.
+- Reportes basicos, corte diario y ganancia estimada conforme se completen
+  esos modulos.
+- Respaldo preparado para cuentas reales.
+
+Plan Negocio $199:
+- Catalogo digital con link publico.
+- WhatsApp para cobranza y recordatorios.
+- Empleados, permisos y multi-dispositivo.
+- Agenda.
+- Proveedores y compras.
+- Reportes avanzados.
+- Corte por empleado/metodo.
+- Codigo de barras.
+- Promociones.
+- Personalizacion avanzada.
+- Mercado Pago Point como integracion fuerte o modulo estrella.
+
+Racha por uso:
+Como el plan gratis ya equivale al Pro de $99, la recompensa de 15 dias
+seguidos debe liberar una prueba de 30 dias del plan Negocio $199.
+
+Implementacion de cuenta y bot:
+- Tabla `users` para la cuenta principal.
+- Tabla `plan_subscriptions` con `is_pro_active`, `is_business_active`,
+  periodo mensual de 30 dias y renovacion.
+- Cuenta actual: Pro apagado, Negocio activo para revisar funciones incluidas.
+- Tabla `bot_settings` para el modulo "Configura tu bot".
+- El bot debe guardar permisos, pagina/cuenta, tono de respuesta, respuesta
+  base, revision humana y recordatorios automaticos por saldo.
+- No guardar tokens reales de canales externos en el celular; los permisos y
+  secretos reales deben pasar por backend seguro.
+- Modulo de inventario digital: importar CSV, Excel o Word si el archivo trae
+  producto, precio y cantidad. Un asistente interno asigna categorias comunes
+  (alimentos, refrescos, cerveza, limpieza, papeleria, belleza, botanas) y deja
+  `General` cuando no hay coincidencia confiable.

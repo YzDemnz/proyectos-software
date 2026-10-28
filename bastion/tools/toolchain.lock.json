@@ -1,0 +1,21 @@
+{
+  "platform": "windows-x86_64",
+  "tools": [
+    {
+      "name": "luau",
+      "version": "0.738",
+      "source": "https://github.com/luau-lang/luau/releases/tag/0.738",
+      "url": "https://github.com/luau-lang/luau/releases/download/0.738/luau-windows.zip",
+      "sha256": "1d465aa225dff00ed589f32dd79f6e766b54c4de57e3b8652410ccbd4d491695",
+      "executables": ["luau.exe", "luau-compile.exe", "luau-analyze.exe"]
+    },
+    {
+      "name": "rojo",
+      "version": "7.7.0",
+      "source": "https://github.com/rojo-rbx/rojo/releases/tag/v7.7.0",
+      "url": "https://github.com/rojo-rbx/rojo/releases/download/v7.7.0/rojo-7.7.0-windows-x86_64.zip",
+      "sha256": "2179c44862a10ecbd725bdfeb4abc64e16dc4aad9b6c8f3e1a7c46a87280b949",
+      "executables": ["rojo.exe"]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "catalogId": "judicial-managment-juris-models",
+  "catalogVersion": "0.1.0-local",
+  "distributionPolicy": "official-ollama-registry-only",
+  "models": [
+    {
+      "id": "low",
+      "label": "Equipo de Gama Baja",
+      "shortName": "Juris Ligero",
+      "ollamaModel": "qwen2.5:1.5b",
+      "officialPage": "https://ollama.com/library/qwen2.5:1.5b",
+      "license": "Apache-2.0",
+      "approximateDownload": "986 MB",
+      "minimumRamGb": 8,
+      "recommendedRamGb": 12,
+      "minimumDiskGb": 2,
+      "recommendedVramGb": 0,
+      "description": "Modelo local ligero para orientación, listas y respuestas breves.",
+      "bestFor": [
+        "orientación dentro de la app",
+        "checklists",
+        "clasificación simple",
+        "respuestas cortas"
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Gama Media",
+      "shortName": "Juris Medio",
+      "ollamaModel": "qwen2.5:3b-instruct",
+      "officialPage": "https://ollama.com/library/qwen2.5:3b-instruct",
+      "license": "Apache-2.0",
+      "approximateDownload": "1.9 GB",
+      "minimumRamGb": 16,
+      "recommendedRamGb": 24,
+      "minimumDiskGb": 4,
+      "recommendedVramGb": 2,
+      "description": "Modelo equilibrado para redactar, resumir y ordenar información jurídica.",
+      "bestFor": [
+        "resúmenes",
+        "borradores simples",
+        "fechas de audiencia",
+        "explicaciones por materia"
+      ]
+    },
+    {
+      "id": "high",
+      "label": "Gama Alta",
+      "shortName": "Juris Avanzado",
+      "ollamaModel": "qwen2.5:7b",
+      "officialPage": "https://ollama.com/library/qwen2.5:7b",
+      "license": "Apache-2.0",
+      "approximateDownload": "4.7 GB",
+      "minimumRamGb": 20,
+      "recommendedRamGb": 24,
+      "minimumDiskGb": 6,
+      "recommendedVramGb": 6,
+      "description": "Modelo de mayor capacidad para escritos extensos y revisión comparativa.",
+      "bestFor": [
+        "documentos más largos",
+        "comparación de textos",
+        "análisis más completo",
+        "razonamiento más cuidadoso"
+      ]
+    },
+    {
+      "id": "professional",
+      "label": "Gama Profesional",
+      "shortName": "Juris Profesional",
+      "ollamaModel": "qwen2.5:14b",
+      "officialPage": "https://ollama.com/library/qwen2.5:14b",
+      "license": "Apache-2.0",
+      "approximateDownload": "9.0 GB",
+      "minimumRamGb": 24,
+      "recommendedRamGb": 32,
+      "minimumDiskGb": 11,
+      "recommendedVramGb": 10,
+      "description": "Modelo local de mayor capacidad para equipos con memoria amplia.",
+      "bestFor": [
+        "escritos complejos",
+        "síntesis extensas",
+        "revisión de argumentos",
+        "asistencia jurídica avanzada"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "MicroApp",
+    "slug": "microapp",
+    "description": "Base inicial para desarrollar MicroApp como app Android publicable.",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "microapp",
+    "backgroundColor": "#F8FAFC",
+    "primaryColor": "#075CFF",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.microapp.starter",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#F8FAFC",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permite que MicroApp use una foto como logo de tu negocio."
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "name": "judicial-managment",
+  "productName": "Judicial Managment",
+  "private": true,
+  "version": "3.3.6",
+  "description": "Aplicación web de gestión jurídica con un despacho por cuenta web.",
+  "author": "leo_j",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5186 --strictPort",
+    "web:dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "desktop:build": "npm run build && electron-builder",
+    "desktop:build-update": "npm run typecheck && npm run build && electron-builder --win nsis --x64 --publish never",
+    "desktop:build-update:signed": "npm run typecheck && npm run build && electron-builder --win nsis --x64 --publish never -c.win.signAndEditExecutable=true",
+    "desktop:build:store": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-store-msix.ps1",
+    "desktop:verify-signatures": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/verify-windows-signatures.ps1",
+    "desktop:publish": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/publish-update.ps1",
+    "desktop:build:mac": "npm run build && electron-builder --mac dmg zip --arm64 --x64 --publish never",
+    "desktop:build:mac:signed": "npm run build && electron-builder --mac dmg zip --arm64 --x64 --publish never -c.mac.hardenedRuntime=true -c.mac.notarize=true",
+    "desktop:pack": "npm run build && electron-builder --dir",
+    "legal:ingest": "node scripts/ingest-legal-library.mjs",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.app.json",
+    "test:web": "node --experimental-strip-types scripts/test-web-ai.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.7",
+    "@tiptap/extension-character-count": "^3.26.1",
+    "@tiptap/extension-highlight": "^3.26.1",
+    "@tiptap/extension-image": "^3.26.1",
+    "@tiptap/extension-link": "^3.26.1",
+    "@tiptap/extension-placeholder": "^3.26.1",
+    "@tiptap/extension-subscript": "^3.26.1",
+    "@tiptap/extension-superscript": "^3.26.1",
+    "@tiptap/extension-table": "^3.26.1",
+    "@tiptap/extension-task-item": "^3.26.1",
+    "@tiptap/extension-task-list": "^3.26.1",
+    "@tiptap/extension-text-align": "^3.26.1",
+    "@tiptap/extension-text-style": "^3.26.1",
+    "@tiptap/extension-typography": "^3.26.1",
+    "@tiptap/extension-underline": "^3.26.1",
+    "@tiptap/pm": "^3.26.1",
+    "@tiptap/react": "^3.26.1",
+    "@tiptap/starter-kit": "^3.26.1",
+    "@turbodocx/html-to-docx": "^1.22.0",
+    "dompurify": "^3.4.12",
+    "electron-log": "^5.4.4",
+    "electron-updater": "^6.8.9",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.344.0",
+    "mammoth": "^1.12.0",
+    "pdfjs-dist": "^6.0.227",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "autoprefixer": "^10.4.18",
+    "concurrently": "^10.0.3",
+    "cross-env": "^10.1.0",
+    "electron": "^42.4.0",
+    "electron-builder": "^26.8.1",
+    "eslint": "^9.9.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "postcss": "^8.4.35",
+    "postgres": "^3.4.9",
+    "rcedit": "^5.0.2",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.60.0",
+    "vite": "^8.0.16",
+    "wait-on": "^9.0.10"
+  },
+  "build": {
+    "appId": "com.leojudicial.judicialmanagment",
+    "productName": "Judicial Managment",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "assets/**/*",
+      "assets/juris-model-catalog.json",
+      "package.json"
+    ],
+    "afterPack": "scripts/after-pack.cjs",
+    "extraMetadata": {
+      "main": "electron/main.cjs"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "YzDemnz",
+        "repo": "judicial-managment-portal",
+        "releaseType": "release"
+      }
+    ],
+    "electronUpdaterCompatibility": ">=2.16",
+    "win": {
+      "icon": "assets/icons/icon.ico",
+      "signAndEditExecutable": false,
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "Judicial-Managment-Setup.${ext}"
+    },
+    "mac": {
+      "icon": "assets/icons/icon.icns",
+      "category": "public.app-category.business",
+      "hardenedRuntime": false,
+      "gatekeeperAssess": false,
+      "extendInfo": {
+        "NSLocationWhenInUseUsageDescription": "Judicial Managment usa tu ubicación aproximada, con permiso, para sugerir el catálogo judicial de tu estado y municipio.",
+        "NSLocationUsageDescription": "Judicial Managment usa tu ubicación aproximada, con permiso, para sugerir el catálogo judicial de tu estado y municipio."
+      },
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.inherit.plist",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "Judicial-Managment-Mac-${version}-${arch}.${ext}"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Judicial Managment"
+    }
+  },
+  "overrides": {
+    "@electron/get": {
+      "undici": "7.29.0"
+    },
+    "brace-expansion@<=1.1.17": "1.1.18",
+    "form-data": "4.0.6",
+    "js-yaml": "4.3.2"
+  }
+}

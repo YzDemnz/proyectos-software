@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="MicroApp ayuda a pequeños negocios a controlar ventas, inventario, clientes y fiados desde el celular."
+    />
+    <meta name="theme-color" content="#050814" />
+    <title>MicroApp | Control para tu negocio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="inicio">
+      <div class="header-inner">
+        <a class="brand" href="#inicio" aria-label="MicroApp, inicio">
+          <span class="brand-mark" aria-hidden="true">
+            <i data-lucide="store"></i>
+          </span>
+          <span>Micro<span>App</span></span>
+        </a>
+
+        <button class="menu-button" type="button" aria-label="Abrir menú" aria-expanded="false">
+          <i data-lucide="menu"></i>
+        </button>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a class="active" href="#inicio">Inicio</a>
+          <a href="#funciones">Funciones</a>
+          <a href="#planes">Planes</a>
+          <a href="#seguridad">Seguridad</a>
+          <a href="#preguntas">Preguntas</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="text-link" href="http://localhost:8081/">Iniciar sesión</a>
+          <a class="button button-small" href="http://localhost:8081/">Empezar gratis</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <i data-lucide="chart-no-axes-combined"></i>
+              El sistema para negocios que están creciendo
+            </div>
+            <h1 id="hero-title">MicroApp</h1>
+            <p class="hero-statement">
+              Vende más. Controla todo.
+              <strong>Haz crecer tu negocio.</strong>
+            </p>
+            <p class="hero-description">
+              Registra ventas, controla inventario, organiza clientes y revisa
+              fiados desde una sola app hecha para pequeños negocios en México.
+            </p>
+
+            <ul class="hero-benefits">
+              <li><i data-lucide="circle-check"></i> Inventario siempre actualizado</li>
+              <li><i data-lucide="circle-check"></i> Funciona incluso con conexión inestable</li>
+              <li><i data-lucide="circle-check"></i> Folios y tickets por cada venta</li>
+              <li><i data-lucide="circle-check"></i> Tus datos se pueden exportar</li>
+              <li><i data-lucide="circle-check"></i> Fiados y abonos bajo control</li>
+              <li><i data-lucide="circle-check"></i> Diseñada para usarse en segundos</li>
+            </ul>
+
+            <div class="hero-actions">
+              <a class="button" href="http://localhost:8081/">
+                Empezar gratis
+                <i data-lucide="arrow-right"></i>
+              </a>
+              <a class="button button-secondary" href="#como-funciona">
+                <i data-lucide="circle-play"></i>
+                Ver cómo funciona
+              </a>
+            </div>
+            <p class="no-card">Sin tarjeta de crédito. Cancela cuando quieras.</p>
+          </div>
+
+          <div class="product-stage" aria-label="Vista de MicroApp en un celular">
+            <div class="orbit orbit-one" aria-hidden="true"></div>
+            <div class="orbit orbit-two" aria-hidden="true"></div>
+            <div class="phone">
+              <div class="phone-speaker" aria-hidden="true"></div>
+              <img
+                src="./assets/microapp-dashboard.png"
+                alt="Panel principal de MicroApp con ventas, inventario, clientes y accesos rápidos"
+              />
+            </div>
+
+            <div class="metric metric-sales">
+              <span class="metric-icon blue"><i data-lucide="badge-dollar-sign"></i></span>
+              <span>Ventas de hoy</span>
+              <strong>$1,250</strong>
+              <small>12 operaciones registradas</small>
+            </div>
+            <div class="metric metric-stock">
+              <span class="metric-icon orange"><i data-lucide="package-search"></i></span>
+              <span>Inventario bajo</span>
+              <strong>3 productos</strong>
+              <small>Listos para resurtir</small>
+            </div>
+            <div class="metric metric-cloud">
+              <span class="metric-icon green"><i data-lucide="cloud-check"></i></span>
+              <span>Datos respaldados</span>
+              <small>Tu negocio sigue contigo</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-band" id="funciones" aria-labelledby="features-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p>Todo lo que necesitas</p>
+            <h2 id="features-title">Menos libreta. Más control.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article>
+              <span class="feature-icon blue"><i data-lucide="boxes"></i></span>
+              <h3>Inventario inteligente</h3>
+              <p>Productos, costos, existencias, categorías y movimientos claros.</p>
+            </article>
+            <article>
+              <span class="feature-icon green"><i data-lucide="shopping-cart"></i></span>
+              <h3>Ventas rápidas</h3>
+              <p>Arma la venta, cobra y descuenta inventario automáticamente.</p>
+            </article>
+            <article>
+              <span class="feature-icon amber"><i data-lucide="users"></i></span>
+              <h3>Clientes y fiados</h3>
+              <p>Historial, saldos pendientes, abonos y fechas de pago.</p>
+            </article>
+            <article>
+              <span class="feature-icon violet"><i data-lucide="chart-column-big"></i></span>
+              <h3>Reportes claros</h3>
+              <p>Entiende cuánto vendes y qué está pasando en tu negocio.</p>
+            </article>
+            <article>
+              <span class="feature-icon pink"><i data-lucide="receipt-text"></i></span>
+              <h3>Tickets profesionales</h3>
+              <p>Folios automáticos, datos del negocio y opción de compartir.</p>
+            </article>
+            <article>
+              <span class="feature-icon cyan"><i data-lucide="smartphone"></i></span>
+              <h3>Hecha para el celular</h3>
+              <p>Acciones grandes, navegación rápida y aprendizaje mínimo.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="workflow-section" id="como-funciona" aria-labelledby="workflow-title">
+        <div class="section-inner workflow-inner">
+          <div class="workflow-copy">
+            <p class="section-kicker">Una venta, todo actualizado</p>
+            <h2 id="workflow-title">Tu negocio se mueve como un sistema.</h2>
+            <p>
+              Cada operación conecta ventas, pagos, inventario, clientes y tickets.
+              MicroApp mantiene el orden sin pedirte trabajo doble.
+            </p>
+            <ol class="workflow-list">
+              <li>
+                <span>1</span>
+                <div>
+                  <strong>Agrega los productos</strong>
+                  <p>Busca, escanea o selecciona desde tu inventario.</p>
+                </div>
+              </li>
+              <li>
+                <span>2</span>
+                <div>
+                  <strong>Elige cómo te pagaron</strong>
+                  <p>Efectivo, transferencia, tarjeta o fiado.</p>
+                </div>
+              </li>
+              <li>
+                <span>3</span>
+                <div>
+                  <strong>Confirma una sola vez</strong>
+                  <p>Se crea el folio, baja el stock y queda listo el ticket.</p>
+                </div>
+              </li>
+            </ol>
+          </div>
+
+          <div class="movement-panel" aria-label="Ejemplo de movimiento de venta">
+            <div class="movement-header">
+              <div>
+                <span>Venta</span>
+                <strong>V-000142</strong>
+              </div>
+              <span class="status-paid">Pagada</span>
+            </div>
+            <div class="movement-line">
+              <span>2 × Pluma azul</span>
+              <strong>$24</strong>
+            </div>
+            <div class="movement-line">
+              <span>1 × Cuaderno profesional</span>
+              <strong>$85</strong>
+            </div>
+            <div class="movement-total">
+              <span>Total</span>
+              <strong>$109</strong>
+            </div>
+            <div class="movement-events">
+              <p><i data-lucide="circle-check"></i> Pago registrado en efectivo</p>
+              <p><i data-lucide="circle-check"></i> Inventario actualizado</p>
+              <p><i data-lucide="circle-check"></i> Ticket listo para compartir</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="plans-section" id="planes" aria-labelledby="plans-title">
+        <div class="section-inner">
+          <div class="section-heading centered">
+            <p>Planes sencillos</p>
+            <h2 id="plans-title">Empieza sin pagar. Crece cuando lo necesites.</h2>
+            <span>Precios en pesos mexicanos. La renovación mensual requiere tu consentimiento.</span>
+          </div>
+
+          <div class="plans-grid">
+            <article class="plan">
+              <p class="plan-name">Gratis</p>
+              <div class="price"><strong>$0</strong><span>MXN</span></div>
+              <p>Para empezar a ordenar tu negocio con valor real.</p>
+              <ul>
+                <li><i data-lucide="check"></i> Inventario y ventas sin límite operativo</li>
+                <li><i data-lucide="check"></i> Clientes, deudas y abonos</li>
+                <li><i data-lucide="check"></i> Resumen y reportes básicos</li>
+                <li><i data-lucide="check"></i> Tickets y exportaciones básicas</li>
+              </ul>
+              <a class="button button-secondary full" href="http://localhost:8081/">Empezar gratis</a>
+            </article>
+
+            <article class="plan featured">
+              <div class="recommended">Más completo</div>
+              <p class="plan-name">Negocio</p>
+              <div class="price"><strong>$199</strong><span>MXN / mes</span></div>
+              <p>Para automatizar y trabajar con más personas y dispositivos.</p>
+              <ul>
+                <li><i data-lucide="check"></i> Todo lo incluido en Gratis</li>
+                <li><i data-lucide="check"></i> Catálogo y cobranza por mensajes</li>
+                <li><i data-lucide="check"></i> Empleados, roles y permisos</li>
+                <li><i data-lucide="check"></i> Compras, proveedores y agenda</li>
+                <li><i data-lucide="check"></i> Integración con Mercado Pago Point</li>
+              </ul>
+              <a class="button full" href="http://localhost:8081/">Probar MicroApp</a>
+            </article>
+          </div>
+
+          <p class="billing-note">
+            Antes de cada renovación automática recibirás aviso con al menos cinco días naturales.
+            Podrás cancelar la suscripción de inmediato y sin penalización desde tu cuenta.
+          </p>
+        </div>
+      </section>
+
+      <section class="security-section" id="seguridad" aria-labelledby="security-title">
+        <div class="section-inner security-inner">
+          <div>
+            <p class="section-kicker">Confianza desde el primer día</p>
+            <h2 id="security-title">Tus datos siguen siendo tuyos.</h2>
+            <p>
+              Diseñamos MicroApp para que puedas respaldar, consultar y exportar la
+              información de tu negocio. La seguridad también depende de mantener tus
+              credenciales privadas y tus dispositivos protegidos.
+            </p>
+          </div>
+          <div class="security-points">
+            <p><i data-lucide="shield-check"></i><span><strong>Conexiones protegidas</strong>Controles técnicos y acceso autenticado.</span></p>
+            <p><i data-lucide="file-down"></i><span><strong>Datos exportables</strong>Tu información no debe quedar atrapada.</span></p>
+            <p><i data-lucide="key-round"></i><span><strong>Acceso bajo tu control</strong>Roles y permisos en el plan Negocio.</span></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section" id="preguntas" aria-labelledby="faq-title">
+        <div class="section-inner faq-inner">
+          <div>
+            <p class="section-kicker">Preguntas frecuentes</p>
+            <h2 id="faq-title">Antes de empezar</h2>
+            <p>Respuestas directas para probar MicroApp con tranquilidad.</p>
+          </div>
+          <div class="faq-list">
+            <details>
+              <summary>¿La versión gratis sí funciona para un negocio real?<i data-lucide="chevron-down"></i></summary>
+              <p>Sí. Permite registrar inventario, ventas, clientes, deudas y revisar el día. Las funciones avanzadas de equipo y automatización pertenecen al plan Negocio.</p>
+            </details>
+            <details>
+              <summary>¿MicroApp sustituye a un contador o un sistema fiscal?<i data-lucide="chevron-down"></i></summary>
+              <p>No. MicroApp ayuda a organizar operaciones internas. Sus tickets, cálculos y estimaciones no sustituyen CFDI, contabilidad, asesoría fiscal o revisión profesional.</p>
+            </details>
+            <details>
+              <summary>¿Puedo cancelar una suscripción mensual?<i data-lucide="chevron-down"></i></summary>
+              <p>Sí. La cancelación debe estar disponible de manera inmediata, sin penalización, y detiene renovaciones posteriores. El acceso ya pagado continúa hasta el final del periodo aplicable.</p>
+            </details>
+            <details>
+              <summary>¿Mercado Pago procesa el cobro dentro de MicroApp?<i data-lucide="chevron-down"></i></summary>
+              <p>La integración prepara y consulta órdenes, pero el procesamiento financiero lo realiza Mercado Pago bajo sus propios términos. La disponibilidad depende también de sus servicios y terminales.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-cta">
+        <div class="section-inner closing-inner">
+          <div>
+            <p>Tu negocio ya merece sistema.</p>
+            <h2>Empieza hoy con MicroApp.</h2>
+          </div>
+          <a class="button" href="http://localhost:8081/">
+            Crear mi cuenta gratis
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="section-inner footer-grid">
+        <div>
+          <a class="brand" href="#inicio">
+            <span class="brand-mark" aria-hidden="true"><i data-lucide="store"></i></span>
+            <span>Micro<span>App</span></span>
+          </a>
+          <p>Control práctico para emprendedores y pequeños negocios.</p>
+        </div>
+        <div>
+          <strong>Producto</strong>
+          <a href="#funciones">Funciones</a>
+          <a href="#planes">Planes</a>
+          <a href="#seguridad">Seguridad</a>
+        </div>
+        <div>
+          <strong>Legal</strong>
+          <a href="./terminos.html">Términos y condiciones</a>
+          <a href="./terminos.html#privacidad">Privacidad</a>
+          <a href="./terminos.html#contacto">Contacto legal</a>
+        </div>
+        <div>
+          <strong>Acceso</strong>
+          <a href="http://localhost:8081/">Iniciar sesión</a>
+          <a href="http://localhost:8081/">Empezar gratis</a>
+        </div>
+      </div>
+      <div class="section-inner footer-bottom">
+        <span>© 2026 MicroApp. Todos los derechos reservados.</span>
+        <span>Hecho para pequeños negocios en México.</span>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

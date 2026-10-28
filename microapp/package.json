@@ -1,0 +1,39 @@
+{
+  "name": "microapp",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@expo-google-fonts/inter": "^0.4.2",
+    "cors": "^2.8.6",
+    "expo": "~56.0.9",
+    "expo-font": "~56.0.5",
+    "expo-image-picker": "~56.0.16",
+    "expo-status-bar": "~56.0.4",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^8.2.0",
+    "jszip": "^3.10.1",
+    "lucide-react-native": "^1.17.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-svg": "15.15.4",
+    "react-native-web": "^0.21.2",
+    "sql.js": "^1.14.1"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "website": "node tools/serve-website.mjs",
+    "backend": "node backend/server.js",
+    "typecheck": "tsc --noEmit",
+    "doctor": "npx expo-doctor"
+  },
+  "private": true
+}

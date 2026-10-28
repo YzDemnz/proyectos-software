@@ -1,0 +1,1742 @@
+[
+  {
+    "path": ".gitignore",
+    "size": 243,
+    "sha256": "1f7460e994481b9847a14186bc35bb2f16f55ca8fac6b0013bb2b325dc4ae88c"
+  },
+  {
+    "path": "bastion/.gitignore",
+    "size": 243,
+    "sha256": "1f7460e994481b9847a14186bc35bb2f16f55ca8fac6b0013bb2b325dc4ae88c"
+  },
+  {
+    "path": "bastion/default.project.json",
+    "size": 1087,
+    "sha256": "94e9bbcac59e3557fb4468bae8ef3c123e8a07c88c733eb836dc91b23f3db988"
+  },
+  {
+    "path": "bastion/defensa-restaurado-20261002.png",
+    "size": 28036,
+    "sha256": "f8beab2cf30ce8139ed346dfed2f391c8dabf30e737dcd020505cdca2f55cdec"
+  },
+  {
+    "path": "bastion/grb_activate_overlay.ps1",
+    "size": 3935,
+    "sha256": "2044510c59035861f4acad8ce6ce2258d1734d0b01cc1d63bb73f94346d40ad2"
+  },
+  {
+    "path": "bastion/grb_audit.ps1",
+    "size": 11765,
+    "sha256": "f8e8f9dd578a8888819f618b4b8fa075764d2eec15f5820419dcddd874718a93"
+  },
+  {
+    "path": "bastion/grb_backup.ps1",
+    "size": 1793,
+    "sha256": "a9d19ea1aeedb301efdc633f3d0630fe24231d52e5fac878fe118b2e464b85d9"
+  },
+  {
+    "path": "bastion/grb_finalize_docs.ps1",
+    "size": 6866,
+    "sha256": "4996dff6ae5051be764b397cd9c4e07d3a2dcaf7a8bab72b405728d6cdf375d8"
+  },
+  {
+    "path": "bastion/grb_install_audio.ps1",
+    "size": 2760,
+    "sha256": "5bfe1434a5f84e53c02e0f34de728875360565c173b75a29e48f39db8c364fbe"
+  },
+  {
+    "path": "bastion/grb_install_loader.ps1",
+    "size": 1810,
+    "sha256": "08b3a4db7801a7284696efe181e0a0cffa00200943daa02cbb6b9315b72b5a22"
+  },
+  {
+    "path": "bastion/grb_install_next.ps1",
+    "size": 1898,
+    "sha256": "8e97804bcdf3d5c664ebd0384bfec30300b12d15aa3808701ff819844efe5d3b"
+  },
+  {
+    "path": "bastion/grb_prepare_overlay.ps1",
+    "size": 2332,
+    "sha256": "9451b4b20c152e1e0ed161143a6602a4ab9a3e0a4d037048bf5b6216709daa78"
+  },
+  {
+    "path": "bastion/grb_prepare_weapons.ps1",
+    "size": 2308,
+    "sha256": "e3645472eb70b87240e287871f4cc7c39ea528eca4423f11c55da43ba8f3c6a9"
+  },
+  {
+    "path": "bastion/grb_refresh_status.ps1",
+    "size": 6777,
+    "sha256": "58d8f89d9961f155283918dfe6252978416cf350a368f76c7036f9081f33873a"
+  },
+  {
+    "path": "bastion/grb_restore_audio.ps1",
+    "size": 1355,
+    "sha256": "1a5b710389a7507245562a5978eb50e14c5799fc9fe7387426d6d2d2e14c8a87"
+  },
+  {
+    "path": "bastion/grb_restore_loader.ps1",
+    "size": 958,
+    "sha256": "d00106a4db4115f90b6842ce28a6f82a125ed7daaad62eaa74d3c9a669f9c4ff"
+  },
+  {
+    "path": "bastion/grb_restore_overlay.ps1",
+    "size": 2143,
+    "sha256": "6aab5deb7a9dd9ddad56a68ff64b41b0dc422dcc3f8b36729a56a8f2a24d2193"
+  },
+  {
+    "path": "bastion/grb_stage_final_weapons.ps1",
+    "size": 2350,
+    "sha256": "63c1435554569fb9d3cd5163f8f6b16a311345230421fe64359f6847b5f03a08"
+  },
+  {
+    "path": "bastion/grb_stage_more.ps1",
+    "size": 3855,
+    "sha256": "534d429fd94f6b7a2622d59d39d60a83d256d8ffa81701e9ccf2e057b90a65bd"
+  },
+  {
+    "path": "bastion/grb_validate_final.ps1",
+    "size": 2002,
+    "sha256": "eba0ae1a3b2595a44eddf4f7078b54abae9f61ae94c8986a622b6abf9421f55d"
+  },
+  {
+    "path": "bastion/hosthavoc-ia-en-linea-20261002.png",
+    "size": 92232,
+    "sha256": "130a99ff888bfe5517b39c066e2663a1921d66bb29ea77df06dbc92282c7606f"
+  },
+  {
+    "path": "bastion/hosthavoc-mapa-1.0.7.jpg",
+    "size": 53433,
+    "sha256": "44a8462adca7bbb25cf89a380b0b7b2078c4978722fc2cd52edf5e5716f64f9b"
+  },
+  {
+    "path": "bastion/ia-misiones-20261002.png",
+    "size": 91578,
+    "sha256": "3ebcf94e5ef314a4d8a106fc342befd043428d49973108ca5c8547dbe95b8c1b"
+  },
+  {
+    "path": "bastion/Log.txt",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "bastion/README.md",
+    "size": 782,
+    "sha256": "4d453ff5ad9b7aa120c7c01e5d6db833059ccb847e46ad7f8d71c475b6de31f6"
+  },
+  {
+    "path": "bastion/serverconfig.cleaned.json",
+    "size": 19663,
+    "sha256": "a880058533fe2c0ed7dc1db0b722d2f80e66ecd4e3f18f00cbdaa27c03cbd996"
+  },
+  {
+    "path": "bastion/serverconfig.crashfix.json",
+    "size": 20031,
+    "sha256": "3739fa3065fefd61878fa6fa563dde3a3eeeaf13a3181f48f913a55d980a115c"
+  },
+  {
+    "path": "bastion/Settings.xml",
+    "size": 9134,
+    "sha256": "779f9bb456af53aa734cdb2f607072ee4b57618a91b4897f71a98c64d04ab555"
+  },
+  {
+    "path": "bastion/src/client/Bootstrap.client.luau",
+    "size": 3317,
+    "sha256": "680fb03538af4632641d404c406623ffa71ae664f820a2ca9a964cdc44671645"
+  },
+  {
+    "path": "bastion/src/client/FirstPersonController.luau",
+    "size": 6460,
+    "sha256": "0b95b4c90f2f5c09a199615e3c723960276301c30e9dfa10aae31ea6171270e3"
+  },
+  {
+    "path": "bastion/src/client/HUDController.luau",
+    "size": 23163,
+    "sha256": "26d9ccd62063c7adcc56adda27b51aec78c9f5f14fb2c9880528414532159230"
+  },
+  {
+    "path": "bastion/src/client/WeaponSystem.luau",
+    "size": 13927,
+    "sha256": "00f62e65472e12c53bff8a42e26d6ecd754cb328d4179d2c0b4f9ae19d3fa336"
+  },
+  {
+    "path": "bastion/src/client/WeaponVisualAdapter.luau",
+    "size": 7008,
+    "sha256": "718e47e7110e616d4a78d768a2f1f278d87a6b3cbc52b4690ffc04cb55b16b08"
+  },
+  {
+    "path": "bastion/src/gui/init.meta.json",
+    "size": 66,
+    "sha256": "169d8cad2e932b1fc25240cba55db7d9fdb6e43fc2f6819b16edb77d8a096eb9"
+  },
+  {
+    "path": "bastion/src/server/ArsenalService.luau",
+    "size": 6113,
+    "sha256": "24642c8deb330ff51b197e12946028e832a54bab98e8d20f250e35aa525967bc"
+  },
+  {
+    "path": "bastion/src/server/Bootstrap.server.luau",
+    "size": 3119,
+    "sha256": "28a038af5a9131c1e163fc269cdeed3eadbbaa41f7682ddc6bc7d1903718cdeb"
+  },
+  {
+    "path": "bastion/src/server/CombatService.luau",
+    "size": 10882,
+    "sha256": "7dfb2e506f11a97a0bd6c6dcec5479d7f2982303c892c98075e551e967e42c58"
+  },
+  {
+    "path": "bastion/src/server/EconomyService.luau",
+    "size": 1426,
+    "sha256": "ca9e2587d080e69a8c35aa0edbc6eabc02bc6e19bc46c19744441ec01d7ce1e5"
+  },
+  {
+    "path": "bastion/src/server/EnvironmentArt.luau",
+    "size": 29259,
+    "sha256": "fb4d947a4f6d08c7e9a1f11a2509830d51069255a36df6406354a3cad8f6ced6"
+  },
+  {
+    "path": "bastion/src/server/PlayerDataService.luau",
+    "size": 8581,
+    "sha256": "17d4de693ad3e1798df02e87ee827c847f3bb1180414ee9b531cdf9ceca1bfc2"
+  },
+  {
+    "path": "bastion/src/server/WaveService.luau",
+    "size": 4762,
+    "sha256": "469166dc73d587e661887a5780dd5098a8485b96a1bde02cff8d2792d47c4f5e"
+  },
+  {
+    "path": "bastion/src/server/WorldService.luau",
+    "size": 10768,
+    "sha256": "b34dbb6e73ee872aaecda661687ea68212e5626c57264e13fd14ac92a7f70196"
+  },
+  {
+    "path": "bastion/src/server/ZombieService.luau",
+    "size": 15466,
+    "sha256": "779a3127a13b92a815d631a84bad8633bf8a47d144e9a5e46f7c9069f71fd5bb"
+  },
+  {
+    "path": "bastion/src/shared/GameConfig.luau",
+    "size": 3234,
+    "sha256": "71244d51bd95616f6837c93a8012c6b6fa860b1f7a71a32c8c9389ef37fdbfef"
+  },
+  {
+    "path": "bastion/src/shared/SessionRules.luau",
+    "size": 2419,
+    "sha256": "85508d736c63112a8574759a2bf804e41de2329de4a073785b9151e7c5915770"
+  },
+  {
+    "path": "bastion/src/shared/VisualConfig.luau",
+    "size": 2493,
+    "sha256": "1d09f962fd409899a123b8d9517c97c875edf084a749231decf9c5be1fc19f74"
+  },
+  {
+    "path": "bastion/src/shared/WeaponConfig.luau",
+    "size": 3763,
+    "sha256": "c53cd7b1ae160e7e551a8d825b150a09a34181700fcc3d581d308424f1573a1b"
+  },
+  {
+    "path": "bastion/src/shared/WeaponVisualConfig.luau",
+    "size": 913,
+    "sha256": "f6b2a407f9be3f84e4009383d1ae62795de9fe46e66fbf74c7a471b42a0addb4"
+  },
+  {
+    "path": "bastion/tests/ServerTransactions.suite.luau",
+    "size": 14824,
+    "sha256": "1c603860969819f31b5ccb801cbd31423beeaf431a24855735394892881e456f"
+  },
+  {
+    "path": "bastion/tests/SessionRules.spec.luau",
+    "size": 4961,
+    "sha256": "5c1cbeb6a45b1ba86ebdd485f2e242282d1bbb3decc7dd661c8a0be8de74290c"
+  },
+  {
+    "path": "bastion/tests/STUDIO-ACCEPTANCE.md",
+    "size": 2998,
+    "sha256": "efd20464826375748905e5a58fdfb974338a581565c2758945ea57eb3313743f"
+  },
+  {
+    "path": "bastion/tests/WeaponConfig.spec.luau",
+    "size": 3950,
+    "sha256": "7078e6d102ee8527ba9a798a902052286452a0419bbb43ee7c22b1f9834e5b9d"
+  },
+  {
+    "path": "bastion/tools/Build.ps1",
+    "size": 2137,
+    "sha256": "7bf8738642407c5eba723d8c8774ea9328d31d872250e327648c181b502bb5f8"
+  },
+  {
+    "path": "bastion/tools/Inspect-AssetReferences.luau",
+    "size": 1734,
+    "sha256": "a6ec93c3cecf3bd99d15aa2845c0b297c1609f0a140e4e3a7a3c8956ef526666"
+  },
+  {
+    "path": "bastion/tools/Inspect-Assets.luau",
+    "size": 1187,
+    "sha256": "862f543d0ac6ae86b3c1bcd2e517be9aad4ab4643e15e47afda048af7a246398"
+  },
+  {
+    "path": "bastion/tools/Inspect-Weapon-Axes.luau",
+    "size": 1520,
+    "sha256": "075d72d62fe618cb35f99a19940d009bed198b2782b6f6ef5a36de7ed4cb4503"
+  },
+  {
+    "path": "bastion/tools/Setup-Tools.ps1",
+    "size": 1408,
+    "sha256": "cd618b5bc352e5cc9f987bb04cead430691dc831ee4f3583f06faf32f2ceefc9"
+  },
+  {
+    "path": "bastion/tools/Studio-Probe.luau",
+    "size": 208,
+    "sha256": "10c8f59ec0891f9362a51956dfdaa80a763f91bfa233a32fbe0dfa96cdf300ee"
+  },
+  {
+    "path": "bastion/tools/Test-Server.ps1",
+    "size": 1492,
+    "sha256": "31f5e142be766fc3c4fd11217ec7ee66351e88a520eda75d227ec38971ea264d"
+  },
+  {
+    "path": "bastion/tools/Test.ps1",
+    "size": 2730,
+    "sha256": "90aca685a1bc7b0a10b9225229377ce6c309d25da21c59f0e933c6c0fee810a2"
+  },
+  {
+    "path": "bastion/tools/toolchain.lock.json",
+    "size": 789,
+    "sha256": "88bb0003b2d654712d6d070b84eb3e255d9ac68b853296874af2326735b0421e"
+  },
+  {
+    "path": "blender-workbench/.gitignore",
+    "size": 243,
+    "sha256": "1f7460e994481b9847a14186bc35bb2f16f55ca8fac6b0013bb2b325dc4ae88c"
+  },
+  {
+    "path": "blender-workbench/bridge_health.py",
+    "size": 1079,
+    "sha256": "92f08abe9203222a9847797c393166fcc45ff3ac2212ce4e0fe445ad627e1c78"
+  },
+  {
+    "path": "blender-workbench/build_human_study.py",
+    "size": 10380,
+    "sha256": "5fd4331a49c4982e07925a9b05da962257d872b7989fa568ab9c7fcde83c39cd"
+  },
+  {
+    "path": "blender-workbench/finish_human_study.py",
+    "size": 5066,
+    "sha256": "9fe738deb3b6b231aed9bf8cbb1e80959b1f833e1743e69f64c124fe81e25e54"
+  },
+  {
+    "path": "blender-workbench/README.md",
+    "size": 880,
+    "sha256": "c961d3399c1c0bbfc68c93a2c76d28eee435cb7a197dea75d74394f51bdcab53"
+  },
+  {
+    "path": "blender-workbench/Start-Bridge.ps1",
+    "size": 2626,
+    "sha256": "4119c1b5dfb02162f45d681e90189faee17d2319808d27d7074bac6e24b4ffe4"
+  },
+  {
+    "path": "discord-community-bot/.gitignore",
+    "size": 243,
+    "sha256": "1f7460e994481b9847a14186bc35bb2f16f55ca8fac6b0013bb2b325dc4ae88c"
+  },
+  {
+    "path": "discord-community-bot/archives.mjs",
+    "size": 3380,
+    "sha256": "021ce0dae8960511ddaf4b423a0ef7a9d09c1edb46f3bed205a15a349c04c1be"
+  },
+  {
+    "path": "discord-community-bot/archives.test.mjs",
+    "size": 4658,
+    "sha256": "1d53c71616d292ef552f5d01c6c8dbe775569abd88e35fb89439c64a70422e62"
+  },
+  {
+    "path": "discord-community-bot/bot.mjs",
+    "size": 19087,
+    "sha256": "18f6a847b56ea590ca3b8631ab50cd87002e60d61b41ee32f4cbcf4195c683e5"
+  },
+  {
+    "path": "discord-community-bot/config.example.json",
+    "size": 4349,
+    "sha256": "0233e8c247373e5b2c713bbcd9a2cf6869f5fbbb6b98a4356c2f99e4fe9ac043"
+  },
+  {
+    "path": "discord-community-bot/domain.mjs",
+    "size": 8822,
+    "sha256": "36d90efe1aa6bf4a45a678a3112dc617d6bd5d6e123321023de269e08fa11db0"
+  },
+  {
+    "path": "discord-community-bot/domain.test.mjs",
+    "size": 8275,
+    "sha256": "cfd95fd0cd1203bf8ec3687aadc9078f43e48209996b2a47a0a8e8824dc024e8"
+  },
+  {
+    "path": "discord-community-bot/moderation-ui.mjs",
+    "size": 7700,
+    "sha256": "6fdab466a4994882c02e5c70ead82e8f1524470b68f84762d951f9e2213bb80f"
+  },
+  {
+    "path": "discord-community-bot/moderation.mjs",
+    "size": 5102,
+    "sha256": "4c1f26d31f886cb5bd4f6b30c6535f2de6636f133337735bfadd594033e74ba2"
+  },
+  {
+    "path": "discord-community-bot/moderation.test.mjs",
+    "size": 9117,
+    "sha256": "55a3c3ea230f25b6b86d497d5d5bd19d27d116e576d35724e36c7e68a1ad2b84"
+  },
+  {
+    "path": "discord-community-bot/package-lock.json",
+    "size": 11695,
+    "sha256": "7b73e7ab48951e0455387eb52d80167809014864adcf09eae7cef73f1e2908a0"
+  },
+  {
+    "path": "discord-community-bot/package.json",
+    "size": 216,
+    "sha256": "7c362ce5b45689e0f4633d6c5423105ec1b47d8c7b21d2f954be3226685e5f56"
+  },
+  {
+    "path": "discord-community-bot/policies.mjs",
+    "size": 4033,
+    "sha256": "f355b3c877e3d8b0e0708ef8ad5a49378cab21b260266c93edae1ed902421cb0"
+  },
+  {
+    "path": "discord-community-bot/promotions-ui.mjs",
+    "size": 5808,
+    "sha256": "988bdd46c6cbda5cc700bf953e4c578ccd0c9454f0db44b893e5bb4f9489c618"
+  },
+  {
+    "path": "discord-community-bot/promotions.mjs",
+    "size": 8574,
+    "sha256": "8d15faff5e120590c9b2f1b389d92df136ec209c851c8e1579c72aa50d39782a"
+  },
+  {
+    "path": "discord-community-bot/promotions.test.mjs",
+    "size": 7128,
+    "sha256": "ed2b8143ddb25b7237a090a7a9a722815f0334308eb8b1abcad447ffc4a8162d"
+  },
+  {
+    "path": "discord-community-bot/README.md",
+    "size": 910,
+    "sha256": "1fc8134a9297c6362ffdd507a50e5c982d62c76353e1ca96d54f5d6a1fc15ea0"
+  },
+  {
+    "path": "discord-community-bot/storage.mjs",
+    "size": 981,
+    "sha256": "3aaff39977837dc86d3cea31dae1cde2da0dc7a56ac3d545b025e2f60e1e74f3"
+  },
+  {
+    "path": "discord-community-bot/supervisor.cjs",
+    "size": 1654,
+    "sha256": "ec845d130c5ba302d3f56d9b0271e2857e36aa3fef990474e5b1ab243e8108d8"
+  },
+  {
+    "path": "discord-community-bot/ui.mjs",
+    "size": 7387,
+    "sha256": "b8f9840979d56289e3f5f358e837ab3e610be3456e5fed4783d45452d6ce379f"
+  },
+  {
+    "path": "judicial-managment/.env.example",
+    "size": 97,
+    "sha256": "cbc4457ab16e24dff356077f834e6a97665ff86c9fe269a2644df6665071d795"
+  },
+  {
+    "path": "judicial-managment/.gitignore",
+    "size": 243,
+    "sha256": "1f7460e994481b9847a14186bc35bb2f16f55ca8fac6b0013bb2b325dc4ae88c"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_ADJUNTOS_SIN_RESTRICCION.sql",
+    "size": 538,
+    "sha256": "e206ee01d8b719e649740cbd3b795f695690dfd86ef79eca37b4e6b5d143d11d"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_ADMIN_CONTROL_MODERACION.sql",
+    "size": 13423,
+    "sha256": "b9c49668b2aa6f084082fa71f1e780e4154ef62ed118613c7878b9462440c647"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_AUTH_PROFILE_SYNC.sql",
+    "size": 3335,
+    "sha256": "d14b64b8b8bfcc358702884aa052557c9d66b482f3010f3727ac243ad48638a1"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_BIBLIOTECA_FORMATOS.sql",
+    "size": 48950,
+    "sha256": "b3384fc81a2de6a2fb8121867c07d8f25b17960efd9fb27b52b02b3894d909c8"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_BORRADO_DESPACHOS.sql",
+    "size": 4437,
+    "sha256": "98644bf1b851b579a02a37a8239432f3bac0a70cdaaaff0e4c9cb245cc1b0409"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_CALENDARIO.sql",
+    "size": 2653,
+    "sha256": "3de80630222a074d28d2132ec368e8f597f99d9b518bad0b74355ab7649946e7"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_CHAT_ADJUNTOS.sql",
+    "size": 3604,
+    "sha256": "9b4e828cfc3a0a9ebe3e2d3256da060bb9450ca2f3132a1bad11376648286b4b"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_CHAT_DESPACHO.sql",
+    "size": 1878,
+    "sha256": "0884eb5ea79c84a3fe077b434d01f9507ed95434adb878b215dd1eeeac5c759c"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_CHAT_TIEMPO_REAL.sql",
+    "size": 1048,
+    "sha256": "d641e6acb4d1cfac2d196bedde8e4de33bee47ad5e231fced89c9e5af060cbc4"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_COMPLETO.sql",
+    "size": 68324,
+    "sha256": "be3c6c9aabf6824b32dac01a3bd7ae1782f3e42df2f3d829ea1f44f3364ec5c2"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_CUENTA_Y_MEMBRESIAS_3_2_0.sql",
+    "size": 2423,
+    "sha256": "9e270e74afaad0481cbad49ede7efda1a12ea6c1272fc4dbc103ecb0e181bbfe"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_DESPACHOS.sql",
+    "size": 15613,
+    "sha256": "da183f263a0183ccfd379f38a46ce7a494bb879432023d517b8dcb5370fa6cb2"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_DESPLIEGUES_IA_Y_RAG_PRIVADO.sql",
+    "size": 415,
+    "sha256": "1c4b804bf0ce7c70aaca32cee81915fb5a44f65087e97aa2583460b0d932526f"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_DOCUMENTOS_ADJUNTOS.sql",
+    "size": 5920,
+    "sha256": "c8afe9ff271e9416bcb237e044f08b380e9b28de04567e02784495fe37ade75b"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_EXPEDIENTES_UPDATED_AT.sql",
+    "size": 404,
+    "sha256": "e8cd52198b66ca743edeb0337ac35c6b13041d752a304120c1d4b08200dfa5ad"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_INVITACION_DIARIA.sql",
+    "size": 7961,
+    "sha256": "137282bfbdbcbdf010a39f4903a59b056115c84cbb4ecf129fcd88e62173c269"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_LABORAL.sql",
+    "size": 2931,
+    "sha256": "a22d32b1ccfb9a1c6049a578e72df67bba678b9d03ec088b426f29a2a8400fe9"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_MEMBRESIAS_UNICAS.sql",
+    "size": 704,
+    "sha256": "646e91a8423388181b8c0e1d88b362c0b9cd51a657782aed55907a5c3f11dcf8"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_PERFILES_COLABORADORES.sql",
+    "size": 3370,
+    "sha256": "f168b54cd81072df432adb7af8447354b3a9b948f4cf0b173e326917c71e9c2b"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_PERSONALIZA_JURIS.sql",
+    "size": 3341,
+    "sha256": "824995b1e8309eb287ded7e0433b62f8abc26f18ce80a24e9e14dd96028caf73"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_SEGURIDAD_3_2_1.sql",
+    "size": 317,
+    "sha256": "7a7c56531338d3354f8818b9774d64af71f7b5a7764b43a47c531ae885b43d91"
+  },
+  {
+    "path": "judicial-managment/APLICAR_EN_SUPABASE_TIEMPO_REAL_COMPLETO.sql",
+    "size": 1471,
+    "sha256": "28fe581e8273dad314c5317fea4044aafb94483019526daa7c5c962c6b32b4fc"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/reports/manifest.json",
+    "size": 136371,
+    "sha256": "9cd4f330ca044b2cc72a64e7fc2cd4c205f4d45b410477072d91240c66f0e640"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-01-demanda-mercantil-mercantil.txt",
+    "size": 10955,
+    "sha256": "3e695b59beb677310ff8050085b36c885e149d05e4d8a94290a557421d8e6ced"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-02-amparo-federal.txt",
+    "size": 20799,
+    "sha256": "0d7307a191a701127e1476beb4d387ec81c448a8b03cb7e93b2dff87b5c63326"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-03-contestacion-civil.txt",
+    "size": 15189,
+    "sha256": "47562bcb679fcab027abae368ec743e3bf99493f63a12d7d0588e689dd990945"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-04-convenio-familiar.txt",
+    "size": 3576,
+    "sha256": "f879fa6c2ec4552d89a8f02b107e6b79776c78fbb16cb473a797cd07a0d88bf4"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-05-cumplimiento-de-prevencion-civil.txt",
+    "size": 6575,
+    "sha256": "0b1c8339462aa43b1608a6cd4bf0b7be3bc9e2f013a23369b7b249f8821a06e3"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-06-demanda-familiar-familiar.txt",
+    "size": 29315,
+    "sha256": "557a981e6fa5e313cf0886f05ec0986d39c8b56297f7de34401b0bac3252cda8"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-07-denuncia-penal.txt",
+    "size": 16934,
+    "sha256": "6450894762b48aa0a468e46772fa91e63b0c54d392cff0771364a6366cb73c21"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-08-demanda-civil-civil.txt",
+    "size": 7159,
+    "sha256": "7e2d8f0914ec85e6aa051ee8fee15b0958a8d5fd62f6798529d2a1d2b23251b8"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-09-promocion-seguridad-social-laboral.txt",
+    "size": 1984,
+    "sha256": "56c2bb730d78d0b39459356cca69bbc24012e3f6914c231cde4c7fe8713bbc7e"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-10-demanda-familiar-familiar.txt",
+    "size": 5761,
+    "sha256": "0e8625f5075b7f80bca7b400d1e3e94e04d66d4667432412665e88c36b4337ef"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-11-promocion-general.txt",
+    "size": 2192,
+    "sha256": "d1a62d8d3762039ee07cd1349cc35ea017f0f6f2fa76ff49a881bd34c2a12500"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-12-alegatos-civil.txt",
+    "size": 1413,
+    "sha256": "9ec980884445b558e837cbf62fc6a4443be55226239c49de7f791b3b4d40a17f"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-13-convenio-familiar.txt",
+    "size": 11355,
+    "sha256": "7890b6bff28c78ae0f58ec0d8185b64f527357b7f133d8dd8a215a2658efc910"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-14-manifestacion-civil.txt",
+    "size": 1061,
+    "sha256": "31026c99916d52543602b0f4e6398d27a03064172876ec7a4ac06e20e02732d9"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-15-oficio-administrativo.txt",
+    "size": 1275,
+    "sha256": "3eccdeea023c5821cad9c8ff3470a8033a2f7362cdf6746fb0c57f53ab08f3d7"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-16-pliego-de-posiciones-civil.txt",
+    "size": 1160,
+    "sha256": "de571099a7288909d857eceaef908d398ea04d5134398c82d2d3d0d94fbefc4a"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-17-ofrecimiento-de-pruebas-civil.txt",
+    "size": 6049,
+    "sha256": "e4cf0a4abcf96fcc8cbc6963b0d5b7108c17153da4c3961749c83493eeeede9b"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-18-recurso-de-queja-federal.txt",
+    "size": 10208,
+    "sha256": "dadd27e169351253bbe415a745c871b88b726f15ca3a2d2fa4045d9904bf2e67"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-19-promocion-civil.txt",
+    "size": 1757,
+    "sha256": "cdde479f21349ccd4758a1dbc91a7679a4d9174f8a78b81b63c97b0efde7e672"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-20-recurso-administrativo.txt",
+    "size": 17847,
+    "sha256": "76bd5544b33a7e72c605a4741b3ba5528e2d66ad7e09590d583ebfeef1631e8a"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-21-promocion-general.txt",
+    "size": 1474,
+    "sha256": "5a3f94759ad7ecd1ecdb7a42adeaeb2648013b7d9e79a6a8f70966ed8166da4d"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-22-promocion-penal.txt",
+    "size": 781,
+    "sha256": "00754c2e1cc18bbb0f1b8dbec48d2610833c064f07e96890642600b38ac649ff"
+  },
+  {
+    "path": "judicial-managment/assets/drafting-examples/text/escrito-23-promocion-civil.txt",
+    "size": 1055,
+    "sha256": "71808dbbf93acd5948cbe8d02e767cb75e28fded8f647ae6c095eb3d481fb239"
+  },
+  {
+    "path": "judicial-managment/assets/icons/icon-128.png",
+    "size": 21497,
+    "sha256": "abc756a58fadcf2d5419881143d2e63cd47e57c31d7ddb9c6b537109779520df"
+  },
+  {
+    "path": "judicial-managment/assets/icons/icon-16.png",
+    "size": 848,
+    "sha256": "0fcb73e40049a9c748592547eef8c58079aa2f1477bba7a99151d8dae6873d93"
+  },
+  {
+    "path": "judicial-managment/assets/icons/icon-24.png",
+    "size": 1553,
+    "sha256": "fed0ff46baa0fbe02e1bdb691eaa419749840ce56aebe7768638b7f442eef31e"
+  },
+  {
+    "path": "judicial-managment/assets/icons/icon-256.png",
+    "size": 69075,
+    "sha256": "8c56e77248ad9edd92eeda1322d4a9ca9877a5c6bfa6844a331042a05103e0c9"
+  },
+  {
+    "path": "judicial-managment/assets/icons/icon-32.png",
+    "size": 2352,
+    "sha256": "de692e89ea21fe2b664d8d42597ba44ace45b0001fc59ba0041f0524f234ac52"
+  },
+  {
+    "path": "judicial-managment/assets/icons/icon-48.png",
+    "size": 4426,
+    "sha256": "f89bf86f43dbf8196b754311e048f64c9dd59694db886defeb546902443173a0"
+  },
+  {
+    "path": "judicial-managment/assets/icons/icon-64.png",
+    "size": 6946,
+    "sha256": "0748d659b0a7d96b7c81fa36f1c2915aa0850d97a4a117ec22c90e220bddcc53"
+  },
+  {
+    "path": "judicial-managment/assets/icons/icon.ico",
+    "size": 112481,
+    "sha256": "4153f3d499d27eac6a0e5d82094be3cfe0dceee7df80585a34f5a226d9c8d899"
+  },
+  {
+    "path": "judicial-managment/assets/icons/icon.png",
+    "size": 260999,
+    "sha256": "37dcadb8a6f7f2dc9760aeb8cd35ff63bdcede992f6f078488a73bf86cb68a35"
+  },
+  {
+    "path": "judicial-managment/assets/juris-model-catalog.json",
+    "size": 2752,
+    "sha256": "3615dfdeabc036123410e7818b4c4242e68c8440ed927c1eb95719b48beb2a1d"
+  },
+  {
+    "path": "judicial-managment/electron/document-text.mjs",
+    "size": 4096,
+    "sha256": "a0b6dd2df31b2b293db702ecca853ede5fd8879cdb9bb24cbc9242e29c41f87a"
+  },
+  {
+    "path": "judicial-managment/electron/escriba-files.mjs",
+    "size": 11834,
+    "sha256": "8baf2b8e04c157c589f6594471534c10b20deab92c1dd5d9caf2880bda0cfe19"
+  },
+  {
+    "path": "judicial-managment/electron/main.cjs",
+    "size": 55992,
+    "sha256": "ffa42dde5c8dd6e4f1b196f02086708ba3328cf8a99fc0f5f4bb2f988a0cf310"
+  },
+  {
+    "path": "judicial-managment/electron/preload.cjs",
+    "size": 3816,
+    "sha256": "3126b396dba65fccd095203f035810af556302d3be54aeccf56aac0e7665083b"
+  },
+  {
+    "path": "judicial-managment/eslint.config.js",
+    "size": 858,
+    "sha256": "8829283577466fe8a2c565ae999ec075b5d1d2617a43fac7e86ca4ad52907a04"
+  },
+  {
+    "path": "judicial-managment/index.html",
+    "size": 897,
+    "sha256": "6357b734f2e8e374ce55513dee55ee92c682a969d87a877a258ba36bfe64ca57"
+  },
+  {
+    "path": "judicial-managment/package-lock.json",
+    "size": 364821,
+    "sha256": "e9313e596b9bb8afe950265f424f956c5a140430c49f3b0d2101b2db68412691"
+  },
+  {
+    "path": "judicial-managment/package.json",
+    "size": 5924,
+    "sha256": "a88659242a34a990847d77961140c672aca4b7894a811047eddc8c3c808f1d2e"
+  },
+  {
+    "path": "judicial-managment/postcss.config.js",
+    "size": 87,
+    "sha256": "98e8d8a143f16216f4b50a2520024f6254987049b2e199026742a96e16ba411e"
+  },
+  {
+    "path": "judicial-managment/README.md",
+    "size": 801,
+    "sha256": "40c3fd30dda249cc83d189b4ccb0b07437c182fb33f65d709aff27b178a1686e"
+  },
+  {
+    "path": "judicial-managment/scripts/after-pack.cjs",
+    "size": 1261,
+    "sha256": "fba52d483db681025b3628d59b71cddb4cd2b30a9e3a00a4855473b77b9a26f7"
+  },
+  {
+    "path": "judicial-managment/scripts/build-store-msix.ps1",
+    "size": 2977,
+    "sha256": "f64f9d404d2b808167bedae01131e460e2eba9eed641914e7e244d46bbc38b62"
+  },
+  {
+    "path": "judicial-managment/scripts/export-drafting-library-sql.mjs",
+    "size": 3016,
+    "sha256": "dba9be2db532e2a4a6421075a393e4e81661b16c1c527d18e7028e1745d01f4c"
+  },
+  {
+    "path": "judicial-managment/scripts/ingest-legal-library.mjs",
+    "size": 11090,
+    "sha256": "63ea188d79f6e7e739b5c2dfcc682d191726d7da19367d1a9d6dcfd2a2429c41"
+  },
+  {
+    "path": "judicial-managment/scripts/prepare-drafting-examples.py",
+    "size": 20223,
+    "sha256": "e294083b1045172ce10b55d2d4429e498f35a5edf68da2ef7200d10a26a48edd"
+  },
+  {
+    "path": "judicial-managment/scripts/prepare-macos.sh",
+    "size": 1262,
+    "sha256": "6a33ff3f85a7284002fe63f551606a05437248a2e65f01636d0384a3458a257d"
+  },
+  {
+    "path": "judicial-managment/scripts/publish-update.ps1",
+    "size": 2681,
+    "sha256": "957f08e5fec9e75cae71401cda9a903d3673e3c5fa4e61622d9b9a74ee38f0f2"
+  },
+  {
+    "path": "judicial-managment/scripts/test-web-ai.mjs",
+    "size": 1332,
+    "sha256": "c9950a6f4cca1a9bbee9fdac3e68857fec505a8245cbe26d21cff9483b253dba"
+  },
+  {
+    "path": "judicial-managment/scripts/verify-windows-signatures.ps1",
+    "size": 938,
+    "sha256": "2925c05ad3ab566ed112b9b9b776c964022e31df075668b123eeebc2861557b7"
+  },
+  {
+    "path": "judicial-managment/src/App.tsx",
+    "size": 62209,
+    "sha256": "6ce9d6ade467367d2bf45576ab005a3aa1c5120f268f39f2683642da598b8bea"
+  },
+  {
+    "path": "judicial-managment/src/components/AccountSettings.tsx",
+    "size": 9191,
+    "sha256": "5472b407553a8196843b2f71640dd9b0b586b50a54e9a95b391dead343fda223"
+  },
+  {
+    "path": "judicial-managment/src/components/admin/AdminAssistant.tsx",
+    "size": 14595,
+    "sha256": "88d3da61a0c12400a6e28790822fa12b4ce66014c4876dabb8f9c628e6378bad"
+  },
+  {
+    "path": "judicial-managment/src/components/admin/AdminShell.tsx",
+    "size": 51207,
+    "sha256": "ad4d66a7c00ed971b1b3d0706fe7d4c57bd489132aaece549f4d60db14501d84"
+  },
+  {
+    "path": "judicial-managment/src/components/AppUpdateManager.tsx",
+    "size": 16646,
+    "sha256": "18db88a582563275f569fbffb3736fb14d5b524c2bcf9f72c2f7b9853c43e811"
+  },
+  {
+    "path": "judicial-managment/src/components/Calendario.tsx",
+    "size": 15462,
+    "sha256": "8d36741f760d8da9520515c1629de10cfb64f7108406f46dc49bdc8bc8787806"
+  },
+  {
+    "path": "judicial-managment/src/components/Clientes.tsx",
+    "size": 17236,
+    "sha256": "e45a4664f2095fc11a84727cdd88950b5d9d7fd5daae7e4fcba8e79a831d7386"
+  },
+  {
+    "path": "judicial-managment/src/components/Configuracion.tsx",
+    "size": 34137,
+    "sha256": "ca6cc49f6c8f0d5b45c5623edd8e359fb47f3c67da9f763804e4559ac4713083"
+  },
+  {
+    "path": "judicial-managment/src/components/Dashboard.tsx",
+    "size": 16176,
+    "sha256": "0dd0f6e1b625d50fba51b2c535843bfae10ba6f4821d7868589a942232e63623"
+  },
+  {
+    "path": "judicial-managment/src/components/DespachoChat.tsx",
+    "size": 28782,
+    "sha256": "963a6a61f581858d7c6d0cf4a25e9c9b2328e7c873a84f8fb4f2c04bdd680adc"
+  },
+  {
+    "path": "judicial-managment/src/components/DespachosGate.tsx",
+    "size": 18751,
+    "sha256": "0615fe509ce9eaabab43bd701914ae189b572609a53c5c9bd6a375d400d16269"
+  },
+  {
+    "path": "judicial-managment/src/components/DocumentAttachments.tsx",
+    "size": 13351,
+    "sha256": "89b988893ad41ce5faed861b14159f7e4806b13811b598b0390f093edc9b1cf8"
+  },
+  {
+    "path": "judicial-managment/src/components/Escriba.tsx",
+    "size": 66533,
+    "sha256": "5396e1a107b9f3fd405bc2486ce2b601ff6f92ae5510727d8042e8c805d78bbb"
+  },
+  {
+    "path": "judicial-managment/src/components/Expedientes.tsx",
+    "size": 69425,
+    "sha256": "74759e899c37aa8eb9988143c1bcb658d967a6141098ba5c9eabef516b43518e"
+  },
+  {
+    "path": "judicial-managment/src/components/ExpedientesDirectorio.tsx",
+    "size": 8561,
+    "sha256": "d42dab8324be2c206dafe7995c66741087d1b845ebe1f46ee45362050057ab7c"
+  },
+  {
+    "path": "judicial-managment/src/components/GlobalSearch.tsx",
+    "size": 9041,
+    "sha256": "6b457cfa71117ceb184f1eeb4dff250fb9b8388ed63ab47c470f38f3dda52af2"
+  },
+  {
+    "path": "judicial-managment/src/components/JurisAI.tsx",
+    "size": 66249,
+    "sha256": "373c91149d459c298d9d36a64261739c601e772ecf3c241e42a7932ef559ac89"
+  },
+  {
+    "path": "judicial-managment/src/components/JurisBot.tsx",
+    "size": 9042,
+    "sha256": "381719299737d8ffa3b61408e77be506bfdc48940cdc324fb3b230050f8819e0"
+  },
+  {
+    "path": "judicial-managment/src/components/JurisFace.tsx",
+    "size": 1488,
+    "sha256": "1b2a9de8b4a9ada2f155c7f130aaa1b8a261b5b73f72d7cc6ee1fdc296bd1f0d"
+  },
+  {
+    "path": "judicial-managment/src/components/JurisPersonalization.tsx",
+    "size": 18406,
+    "sha256": "312920cece8c474efc4fa0b57ea6d4f8abcb5d6f2036bad34e7cf6971a51a1cf"
+  },
+  {
+    "path": "judicial-managment/src/components/JurisStartup.tsx",
+    "size": 1579,
+    "sha256": "d480fa69d855b59717c6a4053f0e81c793af8519023adf80c7fb6a6b223095ef"
+  },
+  {
+    "path": "judicial-managment/src/components/Login.tsx",
+    "size": 25703,
+    "sha256": "ff3fe19002a8ebf63a9941ae37c85acbb3dc49f598b65162f38cce6ab4599ade"
+  },
+  {
+    "path": "judicial-managment/src/components/Movimientos.tsx",
+    "size": 17293,
+    "sha256": "930e222429f1c283137ef74c42cb6035d62d0f06c83258377f3114d425214c69"
+  },
+  {
+    "path": "judicial-managment/src/components/PremiumFeatureNotice.tsx",
+    "size": 1341,
+    "sha256": "025ff7742803500d6940b41617e4f39908f2c846d21cc7f9af27377f89f475b5"
+  },
+  {
+    "path": "judicial-managment/src/components/RegionalLocationDialog.tsx",
+    "size": 11429,
+    "sha256": "f788ad4730e826d2e606ceabec555a5bb02e84b3480ac66a33cd90d862c75ee0"
+  },
+  {
+    "path": "judicial-managment/src/components/ReportCenter.tsx",
+    "size": 17592,
+    "sha256": "3e6ed3ebcd793fa9259038107990bf2fd6cf134947e0c9a8b552834dbca6b46c"
+  },
+  {
+    "path": "judicial-managment/src/components/SecuritySettings.tsx",
+    "size": 8345,
+    "sha256": "43b2c2fe3778abb17f039db3958667cd76b8b6d1ad385528151061f975938618"
+  },
+  {
+    "path": "judicial-managment/src/components/SupportReports.tsx",
+    "size": 7636,
+    "sha256": "4621995bdda7fdfd366a4bbf25124898b414542797002a4a6ea2a2a8d9177e91"
+  },
+  {
+    "path": "judicial-managment/src/components/TribunalLaboral.tsx",
+    "size": 22738,
+    "sha256": "9b934f8b23e326ffc0fa120e94641aa73d9c97dcff452861e0011b5a73e0e58c"
+  },
+  {
+    "path": "judicial-managment/src/index.css",
+    "size": 76193,
+    "sha256": "aeaadd572eb88e3bd501cd827aec11d77db1f4f7f3cb6faf017b27471161ae71"
+  },
+  {
+    "path": "judicial-managment/src/lib/adminData.ts",
+    "size": 5073,
+    "sha256": "9aa17e48b39d0e2b59435c038675f4614bc41567eb2527c610e81e8fa21af9b5"
+  },
+  {
+    "path": "judicial-managment/src/lib/aiModelDeployments.ts",
+    "size": 4938,
+    "sha256": "076673c723cfd8e9e51cd16063b57bf3e2ec9e99152ea414d1a9afcdae2774ee"
+  },
+  {
+    "path": "judicial-managment/src/lib/authSecurity.ts",
+    "size": 2184,
+    "sha256": "5d0b42d37098b2c6c025a47ac3970d13b14100346a06f559e241cb44373b6042"
+  },
+  {
+    "path": "judicial-managment/src/lib/authStorage.ts",
+    "size": 2853,
+    "sha256": "6ec3ea31fb7eb73dfc98237aecfddcd6a4b00a8c46eb47d41e14ecb51ddda7cb"
+  },
+  {
+    "path": "judicial-managment/src/lib/calendar.ts",
+    "size": 2659,
+    "sha256": "f792a1e0a65054da4ab3902c0dc57de6f74fb1603ba3331284f2a771cb59566e"
+  },
+  {
+    "path": "judicial-managment/src/lib/calendarNotifications.ts",
+    "size": 2422,
+    "sha256": "08f1e42593792aa5455bd8751f5be9316b612c799d8089e97071e65692881c6b"
+  },
+  {
+    "path": "judicial-managment/src/lib/clipboard.ts",
+    "size": 907,
+    "sha256": "06da3a71084b1d2f27e8b84b2daca4cfb45fbb7332742de747b59eb5c3a55784"
+  },
+  {
+    "path": "judicial-managment/src/lib/despachoBackup.ts",
+    "size": 7087,
+    "sha256": "c3b3b202b029ae0ede3ab36749cbf0c3aa6f94fe700114c4fa4ebc50bfef9267"
+  },
+  {
+    "path": "judicial-managment/src/lib/documentAttachments.ts",
+    "size": 4961,
+    "sha256": "ec93bb1a2c705fb40dd3c414be1dafede2ae376fb2fa21b23478f11ac7a5a85f"
+  },
+  {
+    "path": "judicial-managment/src/lib/draftingExamples.ts",
+    "size": 4848,
+    "sha256": "91c2955844df33598a9fccc055d0a76512e846e2269b7cad0a6820d781d9b5e1"
+  },
+  {
+    "path": "judicial-managment/src/lib/escriba.ts",
+    "size": 5063,
+    "sha256": "32d08e8f3a936934b58302142cec29abf3f8ac231d91b008b81445887c97adf7"
+  },
+  {
+    "path": "judicial-managment/src/lib/jurisAI.ts",
+    "size": 6321,
+    "sha256": "3498c9b5e4137cbe054efd5a06f039a5b64f04e2f5bda52c199819f6d00bef0e"
+  },
+  {
+    "path": "judicial-managment/src/lib/jurisKnowledge.ts",
+    "size": 34392,
+    "sha256": "a77944c4ae0625c02e49585199f89ba0cbba92a39fd9b328b0bd9ab196e3b2b1"
+  },
+  {
+    "path": "judicial-managment/src/lib/jurisTools.ts",
+    "size": 34655,
+    "sha256": "f90357d8e8acba3573ea6a7cc662e5df154652dc026027ba091cd9e14e162cbf"
+  },
+  {
+    "path": "judicial-managment/src/lib/legalLibrary.ts",
+    "size": 26692,
+    "sha256": "2ecd343a5118d09ef0a6b8137d496f27b095343bf804848f78475d24f24bfe9f"
+  },
+  {
+    "path": "judicial-managment/src/lib/regionalLocation.ts",
+    "size": 8869,
+    "sha256": "0a0cef026f50d59da12ad15fbc85696a0aa0fec9d442df35e17b448ddc455d86"
+  },
+  {
+    "path": "judicial-managment/src/lib/subscription.ts",
+    "size": 1352,
+    "sha256": "b4303bff2105733f286b870221a99046875af8a3b4ea5d53dec88af1ce60a0f2"
+  },
+  {
+    "path": "judicial-managment/src/lib/supabase.ts",
+    "size": 9390,
+    "sha256": "2872f583e5f4888adcdf59a38ec64301bd82968c14595bfd440d3709b687599a"
+  },
+  {
+    "path": "judicial-managment/src/main.tsx",
+    "size": 2938,
+    "sha256": "9821e8f77d3e491d822bc0d733f7ca363dbf9031f0b22d70fcbe210119bb6ae9"
+  },
+  {
+    "path": "judicial-managment/src/vite-env.d.ts",
+    "size": 6998,
+    "sha256": "85902f1fef957e87093a7056efdf618dcc2e683b409e9f03ea1ee7abd578d3c4"
+  },
+  {
+    "path": "judicial-managment/src/web/assets/pjf-panel.png",
+    "size": 9310,
+    "sha256": "dbe7b2538e89167db598caf2040335669f4886f46ad448bd6fa97eb3afff6f4b"
+  },
+  {
+    "path": "judicial-managment/src/web/assets/poder-en-linea-logo.png",
+    "size": 128442,
+    "sha256": "eca01b8404570dcc386bb3806478cbed88bc1bcc0e382343614cec6d5ce41b7f"
+  },
+  {
+    "path": "judicial-managment/src/web/assets/scjn-logo-color-h.svg",
+    "size": 37506,
+    "sha256": "259366cef718dec5aa170af7016985c87c4d822ef70dffe366e338abc79cc5a8"
+  },
+  {
+    "path": "judicial-managment/src/web/assets/SOURCES.md",
+    "size": 1534,
+    "sha256": "e54b26aeada6f030240462f8fd49c85717a66df273533afb1fbc0c4db2e37a95"
+  },
+  {
+    "path": "judicial-managment/src/web/BrandMark.tsx",
+    "size": 212,
+    "sha256": "915cbfc25d9cc68c7fe0828314d1d059bb88f6d7aa9554e017aa36d8e3f0135c"
+  },
+  {
+    "path": "judicial-managment/src/web/browserDocuments.ts",
+    "size": 10549,
+    "sha256": "01ddac6d6e077b1a2e53abe6c3e257b55196f32fe421dd67454f125c99a3922c"
+  },
+  {
+    "path": "judicial-managment/src/web/cloudAI.ts",
+    "size": 2128,
+    "sha256": "4619846b7ebb47380c5ed3fc7c8406f948ad491e62e60aa0a4ce60f7e6c0ef18"
+  },
+  {
+    "path": "judicial-managment/src/web/identity.css",
+    "size": 15822,
+    "sha256": "2532ec2ef5a9bff8882dca7fdeff961c34099cccbf7510d2a8938dc62a275e51"
+  },
+  {
+    "path": "judicial-managment/src/web/jurisPrompts.ts",
+    "size": 7154,
+    "sha256": "c4d3febb60ad024a29c0e31e0c67ed74423dba6189a610204f0e0fb62dce4041"
+  },
+  {
+    "path": "judicial-managment/src/web/vendor.d.ts",
+    "size": 163,
+    "sha256": "5961a0e69b648f2899b0190b7dc8d8ede136bffc853005998317e715817662d1"
+  },
+  {
+    "path": "judicial-managment/src/web/web.css",
+    "size": 8147,
+    "sha256": "e2da9885d71cf6a6f37d66d93c3031933ab1d3798fab29a173f0bf77c05311db"
+  },
+  {
+    "path": "judicial-managment/src/web/WebEntry.tsx",
+    "size": 9049,
+    "sha256": "7f50c04b778615ce09355d1fcbf22988e8538257e1184ecf0681ee9f695dbd65"
+  },
+  {
+    "path": "judicial-managment/src/web/WebJurisAI.tsx",
+    "size": 10744,
+    "sha256": "c3e6e6b58d596255a1384ddb0136cc4e66f7b3415eddc4885d6f6900c3c5537c"
+  },
+  {
+    "path": "judicial-managment/src/web/WebOnboarding.tsx",
+    "size": 6888,
+    "sha256": "4651e6b5d6c8feb51b813e7a5acb34926d2cea1b19347dafd5fe59e65fa10329"
+  },
+  {
+    "path": "judicial-managment/src/web/WebWorkspace.tsx",
+    "size": 7372,
+    "sha256": "324971431b05818756d5e75f35d918ce87442bdc098677d805023cf750303d01"
+  },
+  {
+    "path": "judicial-managment/supabase/functions/account-recovery-email/index.ts",
+    "size": 6607,
+    "sha256": "9cce13804cc1c202d2e143e70d2bbfe2212272f465b8cd84a865989e8ac4dce4"
+  },
+  {
+    "path": "judicial-managment/supabase/functions/account-recovery-email/README.md",
+    "size": 1140,
+    "sha256": "9115de0cf16f1f4f1dc732ebd42868d100e5552b826f016be64df83093d6baf4"
+  },
+  {
+    "path": "judicial-managment/supabase/functions/judicial-web-ai/index.ts",
+    "size": 6353,
+    "sha256": "c0951a409059f1918a265e269315e71e2392ff615e0e5298c34ebf4a074bbe37"
+  },
+  {
+    "path": "judicial-managment/supabase/functions/judicial-web-ai/protocol.ts",
+    "size": 2492,
+    "sha256": "8b5d053cc9ac67d2c589c7f4d34e97a2e5e2a19beee3c604f70e21420ceae18f"
+  },
+  {
+    "path": "judicial-managment/supabase/functions/publish-ai-deployment/index.ts",
+    "size": 4126,
+    "sha256": "af72fb2756af95d721f0bd4beb77494de2abd6124cdfb2d2822b77e19dd0a1cb"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260312173930_create_legal_app_schema.sql",
+    "size": 4889,
+    "sha256": "1ab9955421823cf7dc2a8d07c921dfa5fff02aa175ed5c3cec7126c1f0705ae5"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260313043843_update_schema_new_requirements.sql",
+    "size": 3976,
+    "sha256": "8ec16db6c54c0f8379f9ac7936bdad490fd64b49d3baf548c096b44dfa4eac4d"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260526173000_security_and_torreon_courts.sql",
+    "size": 10349,
+    "sha256": "a8f4ed72bba59fc38056d9e94b7c4fd234f83686777cd4d4db4f33b650ebfb16"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260526183000_despachos_workspaces.sql",
+    "size": 15613,
+    "sha256": "da183f263a0183ccfd379f38a46ce7a494bb879432023d517b8dcb5370fa6cb2"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260526210000_calendario_eventos.sql",
+    "size": 2733,
+    "sha256": "5d137713f6663a9d62539bc31bc8272f231db48b5bbeb7f7692879a9f4caf264"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260527013000_despacho_soft_delete.sql",
+    "size": 4531,
+    "sha256": "3e0732b6c706f9ef0ab8725e3bf290b755788535ebe54033badc812d7a85d739"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260527123000_laboral_asuntos.sql",
+    "size": 2931,
+    "sha256": "a22d32b1ccfb9a1c6049a578e72df67bba678b9d03ec088b426f29a2a8400fe9"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260527133000_daily_invitation_codes.sql",
+    "size": 7961,
+    "sha256": "137282bfbdbcbdf010a39f4903a59b056115c84cbb4ecf129fcd88e62173c269"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260527143000_collaborator_profiles.sql",
+    "size": 3370,
+    "sha256": "f168b54cd81072df432adb7af8447354b3a9b948f4cf0b173e326917c71e9c2b"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260527150000_despacho_chat.sql",
+    "size": 1878,
+    "sha256": "0884eb5ea79c84a3fe077b434d01f9507ed95434adb878b215dd1eeeac5c759c"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260527153000_chat_attachments.sql",
+    "size": 3604,
+    "sha256": "9b4e828cfc3a0a9ebe3e2d3256da060bb9450ca2f3132a1bad11376648286b4b"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260527162000_document_attachments.sql",
+    "size": 5920,
+    "sha256": "c8afe9ff271e9416bcb237e044f08b380e9b28de04567e02784495fe37ade75b"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260527170000_expedientes_updated_at.sql",
+    "size": 404,
+    "sha256": "e8cd52198b66ca743edeb0337ac35c6b13041d752a304120c1d4b08200dfa5ad"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260528120000_admin_control_moderation.sql",
+    "size": 13423,
+    "sha256": "b9c49668b2aa6f084082fa71f1e780e4154ef62ed118613c7878b9462440c647"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260531110000_auth_profile_sync.sql",
+    "size": 3335,
+    "sha256": "d14b64b8b8bfcc358702884aa052557c9d66b482f3010f3727ac243ad48638a1"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260611130000_legal_library_and_juris_analysis.sql",
+    "size": 19135,
+    "sha256": "f8acb3c4b84a4a537750a749d3b1989e76ec8961fddabc06d2a7a32aae20f7ff"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260612090000_escriba_documents.sql",
+    "size": 4604,
+    "sha256": "6324de2389e45fe2a67ee0e6cadf9065c27a9c508e0cceca5a9838c1630f447f"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260615090000_platform_admin_center.sql",
+    "size": 13359,
+    "sha256": "58b6a437a61e5e6401a6cd3c7e2a42f9877ef115a0ba71f897ec6cdf0c79d5f9"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260615093000_align_platform_support_reports.sql",
+    "size": 1719,
+    "sha256": "9de6551915381205ca697f190a563c60b7357da4cadfce0926e1e1ff5baffdd6"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260615100000_fix_support_report_status_rpc.sql",
+    "size": 1663,
+    "sha256": "e0763d089377a03461328a107b7ddc671f690f18a072db712f35292975aecc95"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260615103000_grant_admin_center_table_access.sql",
+    "size": 827,
+    "sha256": "955ac764c4c04c28fb7794e727c56d961df82ae8869062a45f357b972d361ae7"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260615110000_unify_support_report_admin_rpc.sql",
+    "size": 2154,
+    "sha256": "505690e2d80d874a8718e78b93eb7fa8ee1cb5e821e68bcad557c075abc2d888"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260622090000_despacho_membership_integrity.sql",
+    "size": 2491,
+    "sha256": "9e4d127e6b1e876d38bf62d99390b66d1e5be50674626970efb24ab926427f9c"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260622100000_chat_realtime_resilience.sql",
+    "size": 897,
+    "sha256": "e4058c159944b43d4243417f94ba655346a067a993ebae3a51f5c8489bb8e8e3"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260622110000_legal_drafting_library.sql",
+    "size": 2615,
+    "sha256": "8d1dc45560b9875d7c02308e3f05ffdfef2b813ccdd7f828130ea2d5375b1566"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260623110000_document_attachments_any_file.sql",
+    "size": 398,
+    "sha256": "74fda927591d39e03ef1c8f18bd1b8ccebf0288237f11d1c69f86b414c8eea28"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260623113000_juris_personalization.sql",
+    "size": 3074,
+    "sha256": "4b09ad53a0576cde9b9b6ab381ceae3ac2ca90f480bf6beacd872af5172d6262"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260623140000_account_contact_and_membership_integrity.sql",
+    "size": 2485,
+    "sha256": "a0462c497e23bd451910eb47224c273374ec7815d0d81683c045b2c046439cc1"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260623151500_secure_account_recovery.sql",
+    "size": 5631,
+    "sha256": "3f453f6e2a6cc3ae01ed03b98498e1f702d5155cc40bbc16b6f1899d526e4a51"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260718120000_workspace_realtime_resilience.sql",
+    "size": 1471,
+    "sha256": "28fe581e8273dad314c5317fea4044aafb94483019526daa7c5c962c6b32b4fc"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260718133000_ai_deployments_and_private_rag.sql",
+    "size": 6585,
+    "sha256": "933e1d49be70f730e38bd795897ec2a94c84e33141da822e9e856c4ae1c5579b"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260901092605_premium_feature_entitlements.sql",
+    "size": 7843,
+    "sha256": "9baac514d2ce5fe87b9d409a517edda6af7675727a2b9ffdb13630abf9d6bb88"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260901204500_refine_premium_juris_policies.sql",
+    "size": 1266,
+    "sha256": "b1b4ba15b355b7b6d24f47d8de1e148b69fb9ff3f4125aa20919a4b50528bd07"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260901205000_secure_premium_access_function.sql",
+    "size": 248,
+    "sha256": "19589fbbc026eccc3704833a4165566a837ca068844495cdc13fe090a4a09734"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260905212015_web_workspace_onboarding.sql",
+    "size": 5134,
+    "sha256": "420350d739132eaf30364fa15659d437c5479e48641fc0a6e65501fb77da2b69"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260905212316_web_ai_request_limits.sql",
+    "size": 4120,
+    "sha256": "c3f305c99c1478355d6684100fdd1ed13fd7b5456d95a927d6473e8a524d37d0"
+  },
+  {
+    "path": "judicial-managment/supabase/migrations/20260905213542_web_invitation_onboarding.sql",
+    "size": 1794,
+    "sha256": "be0402b610a6e25a9d3aab8e1298e31fbacce58980d92934fecbf63171fd0a27"
+  },
+  {
+    "path": "judicial-managment/tailwind.config.js",
+    "size": 200,
+    "sha256": "18de198e1e2d7a17675a01cefd4190472dc4b53c092dee5e9d51d67524a57bb8"
+  },
+  {
+    "path": "judicial-managment/tsconfig.app.json",
+    "size": 576,
+    "sha256": "30d42e9a4ba46625b435f4783adfc6817037ff82fe184a0f9ba6765e09b19d67"
+  },
+  {
+    "path": "judicial-managment/tsconfig.json",
+    "size": 126,
+    "sha256": "ad28d132ee48d6e23917cf5827cace785d0fc01a44ca68b0dda51cc8c3fd3f52"
+  },
+  {
+    "path": "judicial-managment/tsconfig.node.json",
+    "size": 501,
+    "sha256": "ed7a422586a7b42b5852968785059881784dda55acccea24d8a64b6e8084b759"
+  },
+  {
+    "path": "judicial-managment/vite.config.ts",
+    "size": 951,
+    "sha256": "262daa5ee6b4c12795cc2edca31b0461d01727f36e40fb7c3c055c1e2f791a6b"
+  },
+  {
+    "path": "lumen/.env.example",
+    "size": 97,
+    "sha256": "cbc4457ab16e24dff356077f834e6a97665ff86c9fe269a2644df6665071d795"
+  },
+  {
+    "path": "lumen/.gitignore",
+    "size": 243,
+    "sha256": "1f7460e994481b9847a14186bc35bb2f16f55ca8fac6b0013bb2b325dc4ae88c"
+  },
+  {
+    "path": "lumen/dependency-audit.json",
+    "size": 39678,
+    "sha256": "a13ba662dce05d01e6b4f63801f91bc97df8ae01b61751c49817401e83f37af3"
+  },
+  {
+    "path": "lumen/eslint.config.js",
+    "size": 739,
+    "sha256": "fa3cc12579fb0ef678a3153b31ec396d81ef2fec284a1a5ecb779c0ff336cfe0"
+  },
+  {
+    "path": "lumen/index.html",
+    "size": 671,
+    "sha256": "6729f8a33dfd8a997c17e4502d9cd86668b6870f62f7959eed606480a664ef6f"
+  },
+  {
+    "path": "lumen/Iniciar LUMEN.cmd",
+    "size": 117,
+    "sha256": "29ff736d9e35aab2a30cb648b5fab13ff3e788570142db7832c2c87adc84a0ec"
+  },
+  {
+    "path": "lumen/package-lock.json",
+    "size": 163154,
+    "sha256": "1073722e4ac9268604197793bffb5103d3a7e4f6519ee8120672c5d256dcf37e"
+  },
+  {
+    "path": "lumen/package.json",
+    "size": 977,
+    "sha256": "e06c98ecac6642452b7bcac36e6940a8933ada258e9eedf13c27231e508bcf4a"
+  },
+  {
+    "path": "lumen/postcss.config.js",
+    "size": 81,
+    "sha256": "e32657baf631d7c5f4dc67b4b2ee0ec8e7d5b3c41860e09cddce7c0377cd80bc"
+  },
+  {
+    "path": "lumen/README.md",
+    "size": 714,
+    "sha256": "3937b7b7f7f4985f45e68caead36653472dbe61496916963a3c98600c3dc3bee"
+  },
+  {
+    "path": "lumen/scripts/start-local.ps1",
+    "size": 442,
+    "sha256": "8960c0cbab0d5ec2cfb7b06653ef168726070150fe2f84d749c405f8975ab7e7"
+  },
+  {
+    "path": "lumen/src/App.tsx",
+    "size": 11882,
+    "sha256": "d2819522c7cfdb75df6abb5b37104dafd8abb6be825905bb8b098d2e931b2f4e"
+  },
+  {
+    "path": "lumen/src/components/AuthModal.tsx",
+    "size": 12510,
+    "sha256": "b53d6938542f2315b8f62cfa467d1abef8f0812848b50b9704a1699c51d96adf"
+  },
+  {
+    "path": "lumen/src/components/BookCatalog.tsx",
+    "size": 5318,
+    "sha256": "dc0427bc96ac8c893ea14cd03ea9b6e57deb96da173abfc20901e98a40fac622"
+  },
+  {
+    "path": "lumen/src/components/books.css",
+    "size": 4389,
+    "sha256": "a0758e7b36937ffa4f3812286dec7945eebed777c6f5140ceff05716bfe73e51"
+  },
+  {
+    "path": "lumen/src/components/BookUpload.tsx",
+    "size": 4433,
+    "sha256": "5101e158e2404c6409aac9069253f1c8d0db8ee25bb07a8513c53f5ec5f394b3"
+  },
+  {
+    "path": "lumen/src/components/CodeInput.tsx",
+    "size": 2373,
+    "sha256": "43f8fcef351bb5c34facc002cc3084885d650ee29997a6b5e051093fda78e947"
+  },
+  {
+    "path": "lumen/src/components/SecurityPanel.tsx",
+    "size": 14106,
+    "sha256": "56301083b5ea8f56fd77337762c0874acb3cd37069853ee46e27f3c241ba6245"
+  },
+  {
+    "path": "lumen/src/components/UploadTutorial.tsx",
+    "size": 8091,
+    "sha256": "b496e921e31a0571c1c5ac0f886003b3751a2a2c799679f5e1636df7090b74a8"
+  },
+  {
+    "path": "lumen/src/context/AuthContext.tsx",
+    "size": 7976,
+    "sha256": "c70e2aee7eafd06d2483329d8350d9e0b0677ad133e956caad37a48fbd805003"
+  },
+  {
+    "path": "lumen/src/index.css",
+    "size": 42331,
+    "sha256": "586e0806602e256458fea0daa4e85695dc8e05127529e67f1587c210241449fa"
+  },
+  {
+    "path": "lumen/src/lib/books.ts",
+    "size": 5965,
+    "sha256": "a8e032dcd2398233b6b686b35a78aa319c512f4ce6df806f2783a167ca62fba4"
+  },
+  {
+    "path": "lumen/src/lib/supabase.ts",
+    "size": 631,
+    "sha256": "14205cf0df5dae63137beff4980c68914b1e2218e946e7260f87ac02483338b2"
+  },
+  {
+    "path": "lumen/src/lib/usernames.ts",
+    "size": 239,
+    "sha256": "01e91b1e8dc545cfb19abc9f38f42db5e61bec38d0e382448ca28040f381f5ae"
+  },
+  {
+    "path": "lumen/src/main.tsx",
+    "size": 329,
+    "sha256": "ce69da211ea4a82b7efcac6db3bdc44e7499c66e93f7e5e35bfe95f17448d4c9"
+  },
+  {
+    "path": "lumen/src/vite-env.d.ts",
+    "size": 205,
+    "sha256": "33602db4c7e7c78ab3e675b7dabd43044b159203271500e975ee9a7197a14863"
+  },
+  {
+    "path": "lumen/supabase/migrations/20260908032824_create_profiles_table.sql",
+    "size": 2721,
+    "sha256": "d2c52e20ae58e4731d9a52634a652c9d56cb8f73375b840e2d399753d04976ba"
+  },
+  {
+    "path": "lumen/supabase/migrations/20260909043115_lumen_usernames_and_books.sql",
+    "size": 10450,
+    "sha256": "9e833d0712b228ed21ae76804dcc7e0b3fd1af08450a91d012e92ee7fca8e322"
+  },
+  {
+    "path": "lumen/supabase/migrations/20260909172205_allow_freeform_usernames.sql",
+    "size": 1308,
+    "sha256": "20d72e9ed2391930d50ec1be72190d9148553755dd955fffd637c6ac4117dd59"
+  },
+  {
+    "path": "lumen/tailwind.config.js",
+    "size": 170,
+    "sha256": "316c86f90ec708a4e953dbba5f6064ddae1feb701754f872b599c4bc2a0aceb5"
+  },
+  {
+    "path": "lumen/tests/backend.test.mjs",
+    "size": 19475,
+    "sha256": "b9e35dab46b6d96cfb844078f9e2393ccdf144cf3aaf8c7715502431dc4383ed"
+  },
+  {
+    "path": "lumen/tsconfig.app.json",
+    "size": 711,
+    "sha256": "9750ea1ad666ba467781ab8e047a2337b7692b774de0865a98dbd189ca3fd87e"
+  },
+  {
+    "path": "lumen/tsconfig.json",
+    "size": 119,
+    "sha256": "770b4140bbb581e2dfd9ea9946ffc9c75a1d86ba7d2db5f77c83e37cbdf9d808"
+  },
+  {
+    "path": "lumen/tsconfig.node.json",
+    "size": 481,
+    "sha256": "a96b9ba5e40d95b92adf56431fdf9cbe25b5c2557621f0666615bff6889dfc50"
+  },
+  {
+    "path": "lumen/vite.config.ts",
+    "size": 366,
+    "sha256": "15e39e0c9e4539c1a425babec469b76b8170a83638ed1413ceeea0133d8dc1ab"
+  },
+  {
+    "path": "microapp/.gitignore",
+    "size": 243,
+    "sha256": "1f7460e994481b9847a14186bc35bb2f16f55ca8fac6b0013bb2b325dc4ae88c"
+  },
+  {
+    "path": "microapp/app.json",
+    "size": 1083,
+    "sha256": "e79020c4c5ed3c6df0d1a76701f3a6121b084f6a6b6a55a98fdac806613e306a"
+  },
+  {
+    "path": "microapp/App.tsx",
+    "size": 2782,
+    "sha256": "7a3b0fb549f736b25d79c31bb86ae46320bd1c1ac8848ba4205739e38be063fa"
+  },
+  {
+    "path": "microapp/assets/android-icon-background.png",
+    "size": 17549,
+    "sha256": "fb139c2dee362ebf2070e23b96da6fc0d43f8492de38b8af1fd7223e19b5861d"
+  },
+  {
+    "path": "microapp/assets/android-icon-foreground.png",
+    "size": 78796,
+    "sha256": "9e3d0315a33c6799de601dd34cd8bf8cc3a8d16f3bf75592baec2ceb7240b391"
+  },
+  {
+    "path": "microapp/assets/android-icon-monochrome.png",
+    "size": 4140,
+    "sha256": "6371fc2c12e33ad2215a86c281db3d682a81bebe7c957a842c13b8bf00cceb83"
+  },
+  {
+    "path": "microapp/assets/favicon.png",
+    "size": 1129,
+    "sha256": "a4e030697a7571b3e95d31860e4da55d2f98e5e861e2b55e414f45a8556828ba"
+  },
+  {
+    "path": "microapp/assets/icon.png",
+    "size": 393493,
+    "sha256": "119462bb78eb240a65c869fc067ee599639b3cb5a41953f25c07b17d2a8c7e0f"
+  },
+  {
+    "path": "microapp/assets/splash-icon.png",
+    "size": 17547,
+    "sha256": "5f4c0a732b6325bf4071d9124d2ae67e037cb24fcc9c482ef82bea742109a3b8"
+  },
+  {
+    "path": "microapp/backend/database.js",
+    "size": 12160,
+    "sha256": "723dd076405ca4265e29a2e8bf5b139e430cf2d0fa298dd2ee204aef76b434ce"
+  },
+  {
+    "path": "microapp/backend/server.js",
+    "size": 44381,
+    "sha256": "39eb42d5576a58cc9d3cb27013408a4330d98d2eba8badd73bc9678307173fc7"
+  },
+  {
+    "path": "microapp/index.ts",
+    "size": 307,
+    "sha256": "5c157f4d44972d9c84415e1e4bda595b3abcd8cf733f8a9cd20935bec3eccc42"
+  },
+  {
+    "path": "microapp/LICENSE",
+    "size": 1106,
+    "sha256": "fb3ca4a837f5779e83cef89b78253a8949cfb9429c340309f62d0465ec6610b4"
+  },
+  {
+    "path": "microapp/NOTAS_FASES_MICROAPP.txt",
+    "size": 37356,
+    "sha256": "374e45a89bf110ed749006b393da5760d9056fe89b87f77732a58deed52d12d6"
+  },
+  {
+    "path": "microapp/package-lock.json",
+    "size": 275835,
+    "sha256": "ed60a428ed919b47d4d40eb614f61c994e36d9d495d4a3cf545bba464784cde1"
+  },
+  {
+    "path": "microapp/package.json",
+    "size": 1007,
+    "sha256": "9d24781219499bc34725b1516ca784174d93f646d100ffef2d361d3111e33502"
+  },
+  {
+    "path": "microapp/README.md",
+    "size": 788,
+    "sha256": "36db474f36e88e1e2469f22aac6070351f560e4b05a14035717cc61634cab488"
+  },
+  {
+    "path": "microapp/src/screens/FreeDashboardScreen.tsx",
+    "size": 146809,
+    "sha256": "4be83fc9f3e2fb6346af2d432927863a543f818c22b177fd90d3dc0e18f8521f"
+  },
+  {
+    "path": "microapp/src/screens/IntroScreen.tsx",
+    "size": 4247,
+    "sha256": "4d8eb7982ca5639cb1ab980140c05cc9f02ea8e55876b801b89fe2d93b5d1e62"
+  },
+  {
+    "path": "microapp/src/screens/LoginScreen.tsx",
+    "size": 7849,
+    "sha256": "1b4583e210ff9ed521940b074e9043e22f8970916e10061163b161043cf62224"
+  },
+  {
+    "path": "microapp/src/screens/OnboardingFlowScreen.tsx",
+    "size": 27915,
+    "sha256": "b636c8eb15ce0ef5d807e384d6adfafd3b4736b41ffb8e0f62bc1e890589588a"
+  },
+  {
+    "path": "microapp/src/services/api.ts",
+    "size": 4615,
+    "sha256": "b5757db8faea548a94597b9f1e4b9059912e038e205e66896cc3ba6124dbbe26"
+  },
+  {
+    "path": "microapp/src/theme/typography.ts",
+    "size": 381,
+    "sha256": "aea15f3a708d3d6c48389c7d96876cfb6db2d6b5a02fa6ba1b96ee19cc91ebfe"
+  },
+  {
+    "path": "microapp/src/types/jszip-dist.d.ts",
+    "size": 92,
+    "sha256": "85daec787c96d9485ecfd0ea7f5d73e4f0062a94a440cf7c787e5e1618364db6"
+  },
+  {
+    "path": "microapp/src/types.ts",
+    "size": 3927,
+    "sha256": "ce61adb974f93ea80d63262471ebf87f147d84fd455990e2113089e5f6ce3ad6"
+  },
+  {
+    "path": "microapp/src/utils/imagePicker.ts",
+    "size": 1181,
+    "sha256": "95b168c4fa95976ba3918e7e296a4fd9d7f6103b240cf15c3fbe3552fb9f9553"
+  },
+  {
+    "path": "microapp/src/utils/inventoryImport.ts",
+    "size": 10697,
+    "sha256": "31b000124229bd1698a378e569532129547b12f99304fbe7b0508c6939838050"
+  },
+  {
+    "path": "microapp/tools/build_legal_doc.py",
+    "size": 72219,
+    "sha256": "2e559421b029d8168637b74eb029e6545dab91a4fb819bb6622014780e213f73"
+  },
+  {
+    "path": "microapp/tools/render_pdf_pages.py",
+    "size": 2080,
+    "sha256": "3a0b9aff9bd17754e52c43fba3747d28ae3f77d33767393b305bd441d7113d56"
+  },
+  {
+    "path": "microapp/tools/serve-website.mjs",
+    "size": 1879,
+    "sha256": "1557500d6571633709befeaed46f87244375e793647a8b19779b44990d4c8fd4"
+  },
+  {
+    "path": "microapp/tsconfig.json",
+    "size": 85,
+    "sha256": "712583ff9cdb4b4e4f9b000a4a56d68db8dc1921cbfbc36d490a3a9f2be3dd72"
+  },
+  {
+    "path": "microapp/website/app.js",
+    "size": 1133,
+    "sha256": "4cd5763ea9d66affa5b322dfcba2c58caf31942b036ad1ad1613b62b777c7a1f"
+  },
+  {
+    "path": "microapp/website/assets/microapp-dashboard.png",
+    "size": 38362,
+    "sha256": "aebe3c403008c508ffcc8fc1f460d35e7a909f79a330db21118120e05488fd55"
+  },
+  {
+    "path": "microapp/website/index.html",
+    "size": 16545,
+    "sha256": "63b96edc1ccd10f07527ef10e4b879237b33cb7e511511e9e80278d5a7588367"
+  },
+  {
+    "path": "microapp/website/styles.css",
+    "size": 19913,
+    "sha256": "f03a6fa1acf9ee394bbad93e00289dd83adc63517c1889090eeb2265d03c43a5"
+  },
+  {
+    "path": "microapp/website/terminos.html",
+    "size": 3862,
+    "sha256": "41fa9f0d6080465f180efa0cbdf2f393a39719a951dfb8e70e06db75abf9bb40"
+  },
+  {
+    "path": "README.md",
+    "size": 1451,
+    "sha256": "0f2e75430006313298f705d54c647628f40c480e0a3ad87e9d02109ddfbe0f45"
+  }
+]

@@ -1,0 +1,6 @@
+-- Ejecuta primero APLICAR_EN_SUPABASE_CUENTA_Y_MEMBRESIAS_3_2_0.sql.
+-- Despues ejecuta el contenido de:
+-- supabase/migrations/20260623151500_secure_account_recovery.sql
+--
+-- Esta migracion crea el telefono, el flujo de token de un solo uso
+-- y la base segura para verificar un correo de respaldo con 2FA activo.

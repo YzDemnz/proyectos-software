@@ -1,0 +1,8 @@
+{
+  "name": "guardia-nacional-discord-admin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "node bot.mjs", "test": "node --test"},
+  "dependencies": {"discord.js": "14.27.0"}
+}

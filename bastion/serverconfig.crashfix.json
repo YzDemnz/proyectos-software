@@ -1,0 +1,817 @@
+{
+  "bindAddress": "0.0.0.0",
+  "bindPort": 7935,
+  "publicAddress": "164.152.122.38",
+  "publicPort": 7935,
+  "a2s": {
+    "address": "164.152.122.38",
+    "port": 7936
+  },
+  "rcon": {
+    "address": "164.152.122.38",
+    "port": 7937,
+    "password": "vX2yuJLCMF",
+    "permission": "monitor",
+    "blacklist": [],
+    "whitelist": []
+  },
+  "game": {
+    "name": "CULIACAN RP/XBOX/PS5/PC",
+    "password": "",
+    "passwordAdmin": "cln2026",
+    "admins": [],
+    "scenarioId": "{53132B1C6D0DE5BD}Missions/OwnGM.ent.conf",
+    "maxPlayers": 80,
+    "visible": true,
+    "crossPlatform": true,
+    "supportedPlatforms": [
+      "PLATFORM_PC",
+      "PLATFORM_XBL",
+      "PLATFORM_PSN"
+    ],
+    "gameProperties": {
+      "serverMaxViewDistance": 1600,
+      "serverMinGrassDistance": 50,
+      "networkViewDistance": 1500,
+      "disableThirdPerson": false,
+      "fastValidation": true,
+      "battlEye": false,
+      "VONDisableUI": true,
+      "VONDisableDirectSpeechUI": true,
+      "missionHeader": {}
+    },
+    "mods": [
+      {
+        "modId": "65AD7D0D9941A380",
+        "name": "ACE Core Dev",
+        "version": "1.5.39"
+      },
+      {
+        "modId": "6586079789278413",
+        "name": "ACE Medical Core Dev",
+        "version": "1.5.36"
+      },
+      {
+        "modId": "65B343F799FB521B",
+        "name": "ACE Medical Hitzones Dev",
+        "version": "1.5.36"
+      },
+      {
+        "modId": "65AD7D4F994EA327",
+        "name": "ACE Medical Circulation Dev",
+        "version": "1.5.36"
+      },
+      {
+        "modId": "65AD7C379CBD394D",
+        "name": "ACE Carrying Dev",
+        "version": "1.5.36"
+      },
+      {
+        "modId": "65AD7C75826B46C6",
+        "name": "ACE Radio Dev",
+        "version": "1.5.36"
+      },
+      {
+        "modId": "65AD7CE59E8DB349",
+        "name": "ACE Trenches Dev",
+        "version": "1.5.36"
+      },
+      {
+        "modId": "65AD7BCC9F6B3B4E",
+        "name": "ACE Chopping Dev",
+        "version": "1.5.36"
+      },
+      {
+        "modId": "65AD7D2E9866FA6E",
+        "name": "ACE Finger Dev",
+        "version": "1.5.36"
+      },
+      {
+        "modId": "65AD7D4099944EBD",
+        "name": "ACE Magazine Repack Dev",
+        "version": "1.5.36"
+      },
+      {
+        "modId": "65AD7C249E4ECDFB",
+        "name": "ACE Captives Dev",
+        "version": "1.5.36"
+      },
+      {
+        "modId": "66CEE634723A70D7",
+        "name": "BM - Airframe Helmet",
+        "version": "1.0.7"
+      },
+      {
+        "modId": "665548C0BF8910A0",
+        "name": "Nasty SR25",
+        "version": "0.0.17"
+      },
+      {
+        "modId": "68EA733B10CC61BA",
+        "name": "TierOneTatts Redux",
+        "version": "1.0.11"
+      },
+      {
+        "modId": "69AD4CD16BB25C6B",
+        "name": "Rank Unlock V2",
+        "version": "1.0.31"
+      },
+      {
+        "modId": "68AC0D0E47481C9C",
+        "name": "Nasty RSASS V2",
+        "version": "0.0.3"
+      },
+      {
+        "modId": "65183608D6DA5728",
+        "name": "GRS - Belts & Bags & Droplegs",
+        "version": "1.0.58"
+      },
+      {
+        "modId": "64722DADC53CB75E",
+        "name": "NV-System",
+        "version": "1.0.35"
+      },
+      {
+        "modId": "6954F3B92541BF37",
+        "name": "DWP_Weather",
+        "version": "1.0.6"
+      },
+      {
+        "modId": "6738DB574AAA1CB4",
+        "name": "Advanced Zeroing System",
+        "version": "1.0.22"
+      },
+      {
+        "modId": "6632F94B46173164",
+        "name": "Rayzi Utils",
+        "version": "1.0.12"
+      },
+      {
+        "modId": "668D4E5839894782",
+        "name": "Fastroping",
+        "version": "1.0.8"
+      },
+      {
+        "modId": "69148A1D52696666",
+        "name": "RGM-40_GL-06",
+        "version": "1.0.9"
+      },
+      {
+        "modId": "69E70AC1B8CCA0CB",
+        "name": "TornadoAndEarthquake",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "606B100247F5C709",
+        "name": "Bacon Loadout Editor",
+        "version": "1.7.3"
+      },
+      {
+        "modId": "65157D09F042428A",
+        "name": "GRS - Apparel",
+        "version": "1.0.67"
+      },
+      {
+        "modId": "5AB301290317994A",
+        "name": "Bacon Suppressors",
+        "version": "1.2.7"
+      },
+      {
+        "modId": "5ABD0CB57F7E9EB1",
+        "name": "RIS Laser Attachments",
+        "version": "1.8.0"
+      },
+      {
+        "modId": "5AB890B71D748750",
+        "name": "M4 Block II and URG-I",
+        "version": "1.7.0"
+      },
+      {
+        "modId": "5CA6BA2F63DE1174",
+        "name": "M17 Pistol",
+        "version": "1.0.16"
+      },
+      {
+        "modId": "65D60EA05AF85BE6",
+        "name": "Nasty M1014",
+        "version": "0.0.20"
+      },
+      {
+        "modId": "687CD82F6E41D627",
+        "name": "Attachment Framework-Core",
+        "version": "1.0.16"
+      },
+      {
+        "modId": "69E72BCCA71C55AA",
+        "name": "Wookies ProfessionalIdiot Suit",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "620E426C34BE0D17",
+        "name": "Laser Rangefinder",
+        "version": "1.0.12"
+      },
+      {
+        "modId": "685EF097DEB91133",
+        "name": "Console Optimizion Engines",
+        "version": "1.7.1"
+      },
+      {
+        "modId": "6515672F96701110",
+        "name": "GRS - Essentials",
+        "version": "1.0.69"
+      },
+      {
+        "modId": "5994AD5A9F33BE57",
+        "name": "Game Master FX",
+        "version": "1.7.0"
+      },
+      {
+        "modId": "696F2623A25B20DC",
+        "name": "FLAGS PATCHES",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "61C2509A023211FE",
+        "name": "M4 MAAWS",
+        "version": "0.9.12"
+      },
+      {
+        "modId": "658C0A491D81806C",
+        "name": "Nasty Glock 18C",
+        "version": "0.0.33"
+      },
+      {
+        "modId": "7A3D1B55E4C94F37",
+        "name": "DSK Keep Weapon On Uncon Fix",
+        "version": "0.0.2"
+      },
+      {
+        "modId": "651834C8D77BF86B",
+        "name": "GRS - Modular Vests & Rigs",
+        "version": "1.0.44"
+      },
+      {
+        "modId": "5D0551624969C92E",
+        "name": "Zeliks Character",
+        "version": "1.1.21"
+      },
+      {
+        "modId": "669D0E4B74E2D94F",
+        "name": "BFS - Rangefinder Binoculars",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "645F08FA9E7CDEDE",
+        "name": "Attachment Framework",
+        "version": "1.0.42"
+      },
+      {
+        "modId": "672EE3CC8A605F28",
+        "name": "Hold Your Breath",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "6A0F295774C90865",
+        "name": "Iron Resolve AI Director",
+        "version": "1.0.17"
+      },
+      {
+        "modId": "68AB562502EB08A3",
+        "name": "CHAMPS_BEARDS",
+        "version": "1.0.6"
+      },
+      {
+        "modId": "69C880CE413A80D4",
+        "name": "Champs Beards Fix",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "673F47A1192A73DD",
+        "name": "Nasty420 M700",
+        "version": "0.0.8"
+      },
+      {
+        "modId": "65DACC64CE785B6C",
+        "name": "GRS - Dev Framework",
+        "version": "1.0.52"
+      },
+      {
+        "modId": "5AAAC70D754245DD",
+        "name": "Server Admin Tools",
+        "version": "1.7.1"
+      },
+      {
+        "modId": "628F720BC527C143",
+        "name": "Rayzis Optics",
+        "version": "1.3.85"
+      },
+      {
+        "modId": "69180BA53A4B72A1",
+        "name": "Nasty SA-58",
+        "version": "0.0.4"
+      },
+      {
+        "modId": "685D2419C9F8D128",
+        "name": "Console Optimization Explosion",
+        "version": "1.7.1"
+      },
+      {
+        "modId": "657B064AE0E231DF",
+        "name": "GRS - Patches",
+        "version": "1.0.26"
+      },
+      {
+        "modId": "62F364B35E9B51B0",
+        "name": "Wirecutters 2",
+        "version": "1.1.12"
+      },
+      {
+        "modId": "65913B13108272B5",
+        "name": "Nasty RPK-16",
+        "version": "0.0.29"
+      },
+      {
+        "modId": "659957B5F4D91202",
+        "name": "Beryl M762",
+        "version": "0.0.152"
+      },
+      {
+        "modId": "6582D57B1C96215D",
+        "name": "Nasty AEK971",
+        "version": "0.0.20"
+      },
+      {
+        "modId": "654AE4861D41DBA6",
+        "name": "Nasty CZBren",
+        "version": "0.0.13"
+      },
+      {
+        "modId": "672D660B054DBD07",
+        "name": "Nasty420 Vulkan",
+        "version": "0.0.5"
+      },
+      {
+        "modId": "66C40C031FC93DEF",
+        "name": "Nasty MK47",
+        "version": "0.0.7"
+      },
+      {
+        "modId": "68FD139FA1AE9514",
+        "name": "Fingerless Vanilla Gloves",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "69510D60CD88D7E2",
+        "name": "Fingerless Leather Gloves",
+        "version": "1.1.0"
+      },
+      {
+        "modId": "672001F640D12CD3",
+        "name": "BM - Gloves",
+        "version": "1.0.4"
+      },
+      {
+        "modId": "68B60865B7332DD6",
+        "name": "Wookie_Ghilliesuit",
+        "version": "1.3.27"
+      },
+      {
+        "modId": "62FCEB51DF8527B6",
+        "name": "Improved Blood Effect",
+        "version": "1.5.9"
+      },
+      {
+        "modId": "684CE8AA3B1D6573",
+        "name": "GC Suppression",
+        "version": "1.7.2"
+      },
+      {
+        "modId": "6A14E4F10EA40001",
+        "name": "LG_EarPlugs",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "69BA25A1449A76BF",
+        "name": "401ks Russian Leaf Suits",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "68A0F788C81285BF",
+        "name": "Extra Impact Grenades",
+        "version": "1.0.6"
+      },
+      {
+        "modId": "69F1A001B0A7C401",
+        "name": "LG_PortableRepair",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "6A14464057769C34",
+        "name": "FOG Clothing",
+        "version": "1.0.6"
+      },
+      {
+        "modId": "69F466FB9CBEC8EE",
+        "name": "PLA Weapon Pack",
+        "version": "1.0.9"
+      },
+      {
+        "modId": "697A87F6E4A1FCC7",
+        "name": "BLKO - Uniforms",
+        "version": "2.0.26"
+      },
+      {
+        "modId": "6992D099CF171D01",
+        "name": "SMK Coveralls",
+        "version": "1.1.3"
+      },
+      {
+        "modId": "695CCAF2E3706E2B",
+        "name": "Partizan Suit",
+        "version": "1.3.0"
+      },
+      {
+        "modId": "695AE09DC1682A41",
+        "name": "Kamysh Suit",
+        "version": "1.2.7"
+      },
+      {
+        "modId": "69949428CF12AEF7",
+        "name": "Podlesok Suit",
+        "version": "1.4.11"
+      },
+      {
+        "modId": "64E907AA6A6274D2",
+        "name": "SVU-AS",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "6A1F5DAE1CDCECE2",
+        "name": "M157 NGSW-FC",
+        "version": "2.0.22"
+      },
+      {
+        "modId": "62021EB6163A2698",
+        "name": "NGSW",
+        "version": "1.3.0"
+      },
+      {
+        "modId": "667018A2DF8C1AA4",
+        "name": "GRS - USSR",
+        "version": "2.0.5"
+      },
+      {
+        "modId": "6447378A6C7CB747",
+        "name": "PKP-B",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "6A2CF802755437E4",
+        "name": "BM - Core",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "68EEF406669A4418",
+        "name": "BM - M27 IAR",
+        "version": "1.0.20"
+      },
+      {
+        "modId": "66CA30C19FF83217",
+        "name": "BM - MK14",
+        "version": "1.0.17"
+      },
+      {
+        "modId": "6868487826E1BFF1",
+        "name": "MM HK417",
+        "version": "1.0.48"
+      },
+      {
+        "modId": "6590ECF80DD17257",
+        "name": "MSBS Grot",
+        "version": "0.0.40"
+      },
+      {
+        "modId": "6614B4EBC1A63458",
+        "name": "ARMA-RY CORE",
+        "version": "1.0.33"
+      },
+      {
+        "modId": "6614B9D9C6D7D565",
+        "name": "ARMA-RY G3 BATTLE RIFLES",
+        "version": "1.0.28"
+      },
+      {
+        "modId": "66393237EC3C6FDB",
+        "name": "ARMA-RY M16 EARLY RIFLES",
+        "version": "1.0.7"
+      },
+      {
+        "modId": "69F7590401DBCB50",
+        "name": "CHAMPS_MASK",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "68EAA4B96976D557",
+        "name": "ACE Facepaint Dev",
+        "version": "1.5.36"
+      },
+      {
+        "modId": "68605B2C1FFB94CA",
+        "name": "Sinsin Operator Beards",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "69B33D079DC6A003",
+        "name": "MM Uncanny Masks",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "6A1810295FDCF743",
+        "name": "Vanilla Glasses",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "66C55A9954C7F513",
+        "name": "Northcom Generic Balaclavas",
+        "version": "1.0.10"
+      },
+      {
+        "modId": "6A30902E65DB2491",
+        "name": "Northcom Generic Balaclavas fix",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "685EE86810996203",
+        "name": "Sinsin Glasses Pack",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "65E147E815D1591A",
+        "name": "ChillAccessories",
+        "version": "1.0.10"
+      },
+      {
+        "modId": "69CE6C7861AAB0F8",
+        "name": "BM - Glock 19",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "665B1AF5996EB7AA",
+        "name": "ARMA-RY M1911A1",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "665B3E73D7215B29",
+        "name": "ARMA-RY DELTA 1911",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "69540BE70F93DC7A",
+        "name": "MM HK USP 9mm",
+        "version": "1.0.7"
+      },
+      {
+        "modId": "695966119BE688EC",
+        "name": "MM HK VP9",
+        "version": "1.0.7"
+      },
+      {
+        "modId": "69737D979B23D1D8",
+        "name": "MM P226 Legion",
+        "version": "1.0.4"
+      },
+      {
+        "modId": "670E255D949409E3",
+        "name": "RTS Protocol",
+        "version": "0.0.37"
+      },
+      {
+        "modId": "64EE818E08AFCF94",
+        "name": "MFD Framework",
+        "version": "0.4.9"
+      },
+      {
+        "modId": "68DD7360E60F6628",
+        "name": "Defensa",
+        "version": "1.0.50"
+      },
+      {
+        "modId": "5965550F24A0C152",
+        "name": "Where Am I",
+        "version": "1.2.0"
+      },
+      {
+        "modId": "5AD6FDAC65418DEA",
+        "name": "CZ Scorpion EVO3 SMG",
+        "version": "1.2.4"
+      },
+      {
+        "modId": "5C9758250C8C56F1",
+        "name": "Bon Action Animations",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "688872A816CF516A",
+        "name": "MDS Escualo",
+        "version": "1.0.3"
+      },
+      {
+        "modId": "6160100606CDFA4E",
+        "name": "FX-05",
+        "version": "1.0.19"
+      },
+      {
+        "modId": "65C694F214BF091D",
+        "name": "TRex Pickup Truck HAZARD",
+        "version": "1.0.31"
+      },
+      {
+        "modId": "65E3417724EC7ADC",
+        "name": "Zilver HAZARD",
+        "version": "1.0.56"
+      },
+      {
+        "modId": "66F02CAB1D29DC33",
+        "name": "DEFENSAMX vehiculo blindado",
+        "version": "1.0.8"
+      },
+      {
+        "modId": "665E0458AE7E71C8",
+        "name": "BX Uniforms Vanilla retexture",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "69FB4DCC58988E75",
+        "name": "PATCHES TDL.ESTUDIOS",
+        "version": "1.0.14"
+      },
+      {
+        "modId": "6A252B4B4EBF20DD",
+        "name": "PROPS.MX",
+        "version": "1.0.16"
+      },
+      {
+        "modId": "6A06848EC3B42E6D",
+        "name": "CROWN Core",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "4A91C8E5F36B47D2",
+        "name": "All Optimizer",
+        "version": "1.0.7"
+      },
+      {
+        "modId": "6F7A2E5B1C9048D3",
+        "name": "Interior Prop Optimizer",
+        "version": "1.0.9"
+      },
+      {
+        "modId": "7C2E8A41D54F4A6B",
+        "name": "Server Auto Wipe",
+        "version": "1.0.9"
+      },
+      {
+        "modId": "5C7E0A91D42B4F83",
+        "name": "Virtual Inventory Optimizer",
+        "version": "1.0.7"
+      },
+      {
+        "modId": "C95E2B7A6D3148F0",
+        "name": "CROWN AllOptimizer Bridge",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "E34B5D7C91A64F20",
+        "name": "CROWN IPO Bridge",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "D12A7C8B9E4F4A21",
+        "name": "CROWN ServerAutoWipe Bridge",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "B48C1F7A52E94D66",
+        "name": "CROWN VIO Bridge",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "A17D645E6B6E4F5B",
+        "name": "CROWN",
+        "version": "1.0.4"
+      },
+      {
+        "modId": "647B32B1810EEDC4",
+        "name": "Darkgru Female Operators",
+        "version": "1.0.7"
+      },
+      {
+        "modId": "66117BB13B0C70D7",
+        "name": "Uniformes MARINA",
+        "version": "1.0.25"
+      },
+      {
+        "modId": "66360E8926BF0287",
+        "name": "Uniformes MARINA Female",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "68FAC2480E0C12CC",
+        "name": "CHAMPS_WOLF_JACKET",
+        "version": "1.0.2"
+      },
+      {
+        "modId": "6A3B3A10920F7DBA",
+        "name": "MNSGR Ghillies - STANDALONE",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "697A0311CD4B30F2",
+        "name": "ESTRUCTURAS MUY HD",
+        "version": "1.0.1"
+      },
+      {
+        "modId": "60FB19EB2B5D119C",
+        "name": "Civilian Clothing Mod",
+        "version": "1.1.15"
+      },
+      {
+        "modId": "69A67410FE86233B",
+        "name": "Insurgent Forces",
+        "version": "0.0.6"
+      },
+      {
+        "modId": "6737675F7F2D6992",
+        "name": "GRS - PMC",
+        "version": "1.0.20"
+      },
+      {
+        "modId": "692173D45FCF4719",
+        "name": "Kitbash - Clothing",
+        "version": "1.1.3"
+      },
+      {
+        "modId": "69FF3D1D0D84C8E5",
+        "name": "RoadHouse_Clothing",
+        "version": "1.0.13"
+      },
+      {
+        "modId": "699F7475F4E396AC",
+        "name": "MX Skins - Mexico Edition",
+        "version": "1.0.0"
+      },
+      {
+        "modId": "6A34F66293DB1483",
+        "name": "4x4 Pickup Truck",
+        "version": "1.0.7"
+      },
+      {
+        "modId": "624D3DFA6BD03E00",
+        "name": "Mounstro Blindado",
+        "version": "1.0.49"
+      },
+      {
+        "modId": "5D0D623BB27CC015",
+        "name": "Gatoma Pickup Truck",
+        "version": "0.0.76"
+      },
+      {
+        "modId": "622E17E55E73305B",
+        "name": "Chevy Zilverado",
+        "version": "1.0.42"
+      },
+      {
+        "modId": "661921580AC732F0",
+        "name": "Zilverado CDS Variantes",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "64D46C05324D2614",
+        "name": "Gladiator 4X4",
+        "version": "1.0.5"
+      },
+      {
+        "modId": "6A4D68835981C260",
+        "name": "DEFENSA",
+        "version": "0.0.4"
+      },
+      {
+        "modId": "63301368F80D9B3F",
+        "name": "RTS Defensa Vehicles Dev",
+        "version": "0.0.8"
+      },
+      {
+        "modId": "6A623AA955FEE074",
+        "name": "MOD DE MAPA"
+      }
+    ]
+  },
+  "operating": {
+    "lobbyPlayerSynchronise": true,
+    "playerSaveTime": 120,
+    "disableAI": false,
+    "aiLimit": 0,
+    "slotReservationTimeout": 60
+  }
+}
